@@ -6514,3 +6514,60 @@
  -- Host: Unable to connect to qBittorrent
 2025-07-12 17:26:05.4|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
 2025-07-12 17:26:05.5|Info|ConsoleApp|Exiting main.
+2025-07-12 17:32:47.7|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr - Version 4.0.15.2941
+2025-07-12 17:32:47.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-07-12 17:32:47.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-07-12 17:32:48.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-07-12 17:32:48.6|Info|MigrationController|*** Migrating data source=/config/sonarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 17:32:48.8|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 17:32:48.8|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 17:32:48.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 17:32:48.9|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 17:32:48.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0668361s
+2025-07-12 17:32:48.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 17:32:48.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0779043s
+2025-07-12 17:32:48.9|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 17:32:48.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 17:32:48.9|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 17:32:48.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 17:32:48.9|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 17:32:48.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0016309s
+2025-07-12 17:32:48.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 17:32:48.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0018891s
+2025-07-12 17:32:49.6|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:8989
+2025-07-12 17:32:50.1|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-07-12 17:32:50.1|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-07-12 17:32:50.1|Info|Microsoft.Hosting.Lifetime|Content root path: /app/sonarr/bin
+2025-07-12 17:32:50.2|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
+2025-07-12 17:33:03.2|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-07-12 17:33:03.2|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-07-12 17:33:25.5|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-07-12 17:33:25.5|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-07-12 17:33:25.5|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-07-12 17:33:25.5|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-07-12 17:33:25.5|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-07-12 17:33:25.5|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-07-12 17:33:25.5|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-07-12 17:33:25.5|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-07-12 17:33:25.5|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-07-12 17:33:25.5|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-07-12 17:33:25.5|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-07-12 17:33:25.5|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-07-12 17:37:20.0|Info|RssSyncService|Starting RSS Sync
+2025-07-12 17:37:20.0|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-07-12 17:37:20.1|Info|DownloadDecisionMaker|No results found
+2025-07-12 17:37:20.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-07-12 17:44:58.5|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-07-12 17:44:58.5|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-07-12 17:52:20.1|Info|RssSyncService|Starting RSS Sync
+2025-07-12 17:52:21.0|Warn|Torznab|Indexer The Pirate Bay (Prowlarr) rss sync didn't cover the period between 07/11/2025 14:00:17 and 07/12/2025 12:56:58 UTC. Search may be required.
+2025-07-12 17:52:21.6|Warn|Torznab|Indexer LimeTorrents (Prowlarr) rss sync didn't cover the period between 07/11/2025 15:46:40 and 07/11/2025 17:52:21 UTC. Search may be required.
+2025-07-12 17:52:22.5|Warn|Torznab|Indexer TheRARBG (Prowlarr) rss sync didn't cover the period between 07/11/2025 14:46:25 and 07/12/2025 14:08:19 UTC. Search may be required.
+2025-07-12 17:52:28.5|Info|DownloadDecisionMaker|Processing 321 releases
+2025-07-12 17:52:31.6|Info|RssSyncService|RSS Sync Completed. Reports found: 321, Reports grabbed: 0
+2025-07-12 17:52:50.2|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2025-07-12 17:52:50.2|Info|HousekeepingService|Running housecleaning tasks
+2025-07-12 17:52:50.3|Info|Database|Vacuuming Log database
+2025-07-12 17:52:50.3|Info|Database|Log database compressed
+2025-07-12 17:52:50.3|Info|Database|Vacuuming Main database
+2025-07-12 17:52:50.6|Info|Database|Main database compressed

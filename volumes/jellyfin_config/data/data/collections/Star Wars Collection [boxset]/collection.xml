@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Item>
   <ContentRating>PG</ContentRating>
-  <Added>03/22/2025 22:17:52</Added>
+  <Added>03/23/2025 00:17:52</Added>
   <LockData>false</LockData>
   <Overview>An epic space-opera theatrical film series, which depicts the adventures of various characters "a long time ago in a galaxy far, far away…."</Overview>
   <LocalTitle>Star Wars Collection</LocalTitle>
@@ -19,4 +19,60 @@
     <Studio>20th Century Fox</Studio>
     <Studio>Bad Robot</Studio>
   </Studios>
+  <CollectionItems>
+    <CollectionItem>
+      <Path>/mnt/external/Serve/Movies/The Empire Strikes Back (1980)/Star Wars Episode V The Empire Strikes Back 1980 UHD BluRay 2160p DD 5 1 HDR x265 BHDStudio.mp4</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/movies/Return of the Jedi (1983)/Star Wars Episode VI Return of the Jedi 1983 UHD BluRay 2160p DD 5 1 HDR x265 BHDStudio.mp4</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/mnt/external/Serve/Movies/Return of the Jedi (1983)/Star Wars Episode VI Return of the Jedi 1983 UHD BluRay 2160p DD 5 1 HDR x265 BHDStudio.mp4</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/mnt/external/Serve/Movies/Star Wars (1977)/Star Wars Episode IV A New Hope 1977 UHD BluRay 2160p DD 5 1 HDR x265 BHDStudio.mp4</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/mnt/external/Serve/Movies/Star Wars - Episode I - The Phantom Menace (1999)/Star Wars - Episode I - The Phantom Menace (1999) (2160p BluRay x265 HEVC 10bit HDR AAC 7.1 Tigole).mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/mnt/external/Serve/Movies/Star Wars - Episode II - Attack of the Clones (2002)/Star Wars Episode II Attack Of The Clones 2002 2160p DSNP WEBRip x265 10bit HDR DTS HD MA 6 1 TrollUHD ORARBG.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/mnt/external/Serve/Movies/Star Wars - Episode III - Revenge of the Sith (2005)/Star Wars Episode III Revenge of the Sith 2005 2160p UHD BluRay x265 10bit HDR DTS HD MA TrueHD 7 1 Atmos SWTYBLZ ORARBG.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/mnt/external/Serve/Movies/Star Wars - The Force Awakens (2015)/Star Wars Episode VII The Force Awakens 2015 2160p UHD BluRay x265 10bit HDR DTS HD MA TrueHD 7 1 Atmos SWTYBLZ ORARBG.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/mnt/external/Serve/Movies/Star Wars - The Last Jedi (2017)/Star.Wars.The.Last.Jedi.2017.Multi.UHD.BluRay.2160p-DTOne.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/mnt/external/Serve/Movies/Star Wars - The Rise of Skywalker (2019)/Star Wars Episode IX The Rise of Skywalker 2019 2160p UHD BluRay x265 10bit HDR TrueHD 7 1 Atmos RAR.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/movies/Star Wars - The Rise of Skywalker (2019)/Star Wars Episode IX The Rise of Skywalker 2019 2160p UHD BluRay x265 10bit HDR TrueHD 7 1 Atmos RAR.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/movies/Star Wars (1977)/Star Wars Episode IV A New Hope 1977 UHD BluRay 2160p DD 5 1 HDR x265 BHDStudio.mp4</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/movies/Star Wars - Episode III - Revenge of the Sith (2005)/Star Wars Episode III Revenge of the Sith 2005 2160p UHD BluRay x265 10bit HDR DTS HD MA TrueHD 7 1 Atmos SWTYBLZ ORARBG.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/movies/Star Wars - Episode I - The Phantom Menace (1999)/Star Wars - Episode I - The Phantom Menace (1999) (2160p BluRay x265 HEVC 10bit HDR AAC 7.1 Tigole).mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/movies/Star Wars - The Force Awakens (2015)/Star Wars Episode VII The Force Awakens 2015 2160p UHD BluRay x265 10bit HDR DTS HD MA TrueHD 7 1 Atmos SWTYBLZ ORARBG.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/movies/Star Wars - The Last Jedi (2017)/Star.Wars.The.Last.Jedi.2017.Multi.UHD.BluRay.2160p-DTOne.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/movies/The Empire Strikes Back (1980)/Star Wars Episode V The Empire Strikes Back 1980 UHD BluRay 2160p DD 5 1 HDR x265 BHDStudio.mp4</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/movies/Star Wars - Episode II - Attack of the Clones (2002)/Star Wars Episode II Attack Of The Clones 2002 2160p DSNP WEBRip x265 10bit HDR DTS HD MA 6 1 TrollUHD ORARBG.mkv</Path>
+    </CollectionItem>
+  </CollectionItems>
 </Item>

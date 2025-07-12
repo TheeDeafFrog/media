@@ -4,10 +4,17 @@
   virtualisation.oci-containers.containers.gluetun = {
     image = "qmcgaw/gluetun:v3.40";
 
-    ports = [ # qbittorrent ports
+    ports = [
+      # qbittorrent ports
       "8080:8080"
       "6881:6881"
       "6881:6881/udp"
+      # sonarr ports
+      "8989:8989"
+      # radarr ports
+      "7878:7878"
+      # prowlarr ports
+      "9696:9696"
     ];
     
     capabilities = {
@@ -32,7 +39,7 @@
 
     volumes = [
       "/home/kevin/media/volumes/qbittorrent_config:/config"
-      "/data/media/Downloads:/downloads"
+      "/data/media/:/media"
     ];
     environment = {
       PUID = "1000";
@@ -59,10 +66,6 @@
       TZ = "Africa/Johannesburg";
     };
 
-    ports = [
-      "8989:8989"
-    ];
-
     dependsOn = [ "gluetun" ];
     networks = [ "container:gluetun" ];
   };
@@ -81,10 +84,6 @@
       TZ = "Africa/Johannesburg";
     };
 
-    ports = [
-      "7878:7878"
-    ];
-
     dependsOn = [ "gluetun" ];
     networks = [ "container:gluetun" ];
   };
@@ -102,10 +101,6 @@
       PGID = "100";
       TZ = "Africa/Johannesburg";
     };
-
-    ports = [
-      "9696:9696"
-    ];
 
     dependsOn = [ "gluetun" ];
     networks = [ "container:gluetun" ];

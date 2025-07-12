@@ -4,9 +4,9 @@
   <SslPort>9898</SslPort>
   <EnableSsl>False</EnableSsl>
   <LaunchBrowser>True</LaunchBrowser>
-  <ApiKey>c36cb313717f49b7b86540325b187f7e</ApiKey>
-  <AuthenticationMethod>None</AuthenticationMethod>
-  <AuthenticationRequired>Enabled</AuthenticationRequired>
+  <ApiKey>f27606a936e441e7a171064471af6597</ApiKey>
+  <AuthenticationMethod>Basic</AuthenticationMethod>
+  <AuthenticationRequired>DisabledForLocalAddresses</AuthenticationRequired>
   <Branch>master</Branch>
   <LogLevel>debug</LogLevel>
   <SslCertPath></SslCertPath>

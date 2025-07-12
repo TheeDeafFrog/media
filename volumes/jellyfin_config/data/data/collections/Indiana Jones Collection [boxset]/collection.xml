@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Item>
   <ContentRating>PG</ContentRating>
-  <Added>03/23/2025 16:08:16</Added>
+  <Added>03/23/2025 18:08:16</Added>
   <LockData>false</LockData>
   <Overview>Adventure film series created by George Lucas and Philip Kaufman starring Harrison Ford as archaeologist Dr. Henry Walton "Indiana" Jones, Jr., and directed by Steven Spielberg and James Mangold. Spanning the globe, on death-defying archeological endeavors, if adventure has a name... it must be Indiana Jones.</Overview>
   <LocalTitle>Indiana Jones Collection</LocalTitle>
@@ -17,4 +17,24 @@
     <Studio>Paramount Pictures</Studio>
     <Studio>Lucasfilm Ltd.</Studio>
   </Studios>
+  <CollectionItems>
+    <CollectionItem>
+      <Path>/mnt/external/Serve/Movies/Indiana Jones and the Last Crusade (1989)/Indiana.Jones.and.the.Last.Crusade.1989.BDRip.2160p.UHD.HDR.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/mnt/external/Serve/Movies/Indiana Jones and the Temple of Doom (1984)/Indiana.Jones.and.the.Temple.of.Doom.1984.BDRip.2160p.UHD.HDR.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/movies/Raiders of the Lost Ark (1981)/Indiana Jones and the Raiders of the Lost Ark 1981 4K UHD BluRay 2160p HDR TrueHD 7 1 Atmos H 265 Mg.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/mnt/external/Serve/Movies/Raiders of the Lost Ark (1981)/Indiana Jones and the Raiders of the Lost Ark 1981 4K UHD BluRay 2160p HDR TrueHD 7 1 Atmos H 265 Mg.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/movies/Indiana Jones and the Last Crusade (1989)/Indiana.Jones.and.the.Last.Crusade.1989.BDRip.2160p.UHD.HDR.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/movies/Indiana Jones and the Temple of Doom (1984)/Indiana.Jones.and.the.Temple.of.Doom.1984.BDRip.2160p.UHD.HDR.mkv</Path>
+    </CollectionItem>
+  </CollectionItems>
 </Item>

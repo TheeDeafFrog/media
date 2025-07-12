@@ -12,11 +12,19 @@
       ./containers
       # ./vpn
       ./networking.nix
+      ./gui.nix # uncomment to add xfce and utilty programs for easy admin
     ];
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
+
+  systemd.sleep.extraConfig = ''
+    AllowSuspend=no
+    AllowHibernation=no
+    AllowSuspendThenHibernate=no
+    AllowHybridSleep=no
+  '';
 
   # Set your time zone.
   time.timeZone = "Africa/Johannesburg";
@@ -34,21 +42,6 @@
     LC_PAPER = "en_ZA.UTF-8";
     LC_TELEPHONE = "en_ZA.UTF-8";
     LC_TIME = "en_ZA.UTF-8";
-  };
-
-  # Enable the X11 windowing system.
-  services.xserver.enable = true;
-
-  # Enable the XFCE Desktop Environment.
-  services.xserver.displayManager.lightdm.enable = true;
-  services.xserver.desktopManager.xfce.enable = true;
-
-  programs.firefox.enable = true;
-
-  # Configure keymap in X11
-  services.xserver.xkb = {
-    layout = "za";
-    variant = "";
   };
 
   users.users.kevin = {
@@ -80,12 +73,6 @@
   '';
 
   environment.systemPackages = with pkgs; [
-    (vscode-with-extensions.override {
-      vscodeExtensions = with vscode-extensions; [
-        jnoortheen.nix-ide
-      ];
-    })
-    git
     unzip
   ];
 
@@ -100,8 +87,7 @@
     ];
   };
 
-  # Enable the OpenSSH daemon.
-  # services.openssh.enable = true;
+  services.openssh.enable = true;
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions

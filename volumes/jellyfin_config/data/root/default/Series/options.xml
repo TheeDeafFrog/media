@@ -10,7 +10,7 @@
   <ExtractTrickplayImagesDuringLibraryScan>false</ExtractTrickplayImagesDuringLibraryScan>
   <PathInfos>
     <MediaPathInfo>
-      <Path>/mnt/external/Serve/Series</Path>
+      <Path>/series</Path>
     </MediaPathInfo>
   </PathInfos>
   <SaveLocalMetadata>false</SaveLocalMetadata>

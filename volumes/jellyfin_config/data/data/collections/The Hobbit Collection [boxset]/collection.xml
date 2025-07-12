@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Item>
   <ContentRating>PG-13</ContentRating>
-  <Added>03/22/2025 09:26:25</Added>
+  <Added>03/22/2025 11:26:25</Added>
   <LockData>false</LockData>
   <Overview>The Hobbit collection is a three-part epic fantasy-adventure film directed and produced by Peter Jackson and based on J. R. R. Tolkien's fantasy novel of the same name. The trilogy of films are set in Middle-earth 60 years before "The Lord of the Rings", and will act as a prequel to Jackson's The Lord of the Rings trilogy.</Overview>
   <LocalTitle>The Hobbit Collection</LocalTitle>
@@ -22,4 +22,24 @@
     <Studio>The Saul Zaentz Company</Studio>
     <Studio>Warner Bros. Entertainment</Studio>
   </Studios>
+  <CollectionItems>
+    <CollectionItem>
+      <Path>/mnt/external/Serve/Movies/The Hobbit - The Battle of the Five Armies (2014)/The Hobbit - The Battle of the Five Armies 2014 2160p bluray YTS.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/movies/The Hobbit - The Desolation of Smaug (2013)/The Hobbit - The Desolation of Smaug 2013 2160p bluray YTS.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/mnt/external/Serve/Movies/The Hobbit - The Desolation of Smaug (2013)/The Hobbit - The Desolation of Smaug 2013 2160p bluray YTS.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/mnt/external/Serve/Movies/The Hobbit - An Unexpected Journey (2012)/The Hobbit - An Unexpected Journey 2012 2160p bluray YTS.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/movies/The Hobbit - An Unexpected Journey (2012)/The Hobbit - An Unexpected Journey 2012 2160p bluray YTS.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/movies/The Hobbit - The Battle of the Five Armies (2014)/The Hobbit - The Battle of the Five Armies 2014 2160p bluray YTS.mkv</Path>
+    </CollectionItem>
+  </CollectionItems>
 </Item>

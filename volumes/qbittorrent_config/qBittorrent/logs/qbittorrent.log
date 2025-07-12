@@ -780,3 +780,66 @@
 (I) 2025-07-12T17:09:13 - Successfully listening on IP. IP: "10.2.110.188". Port: "TCP/6881"
 (I) 2025-07-12T17:09:13 - Successfully listening on IP. IP: "10.2.110.188". Port: "UTP/6881"
 (I) 2025-07-12T17:09:17 - Detected external IP. IP: "154.47.30.33"
+(N) 2025-07-12T17:32:42 - qBittorrent termination initiated
+(N) 2025-07-12T17:32:42 - Saving resume data completed.
+(N) 2025-07-12T17:32:42 - BitTorrent session successfully finished.
+(N) 2025-07-12T17:32:42 - qBittorrent is now ready to exit
+(N) 2025-07-12T17:32:47 - qBittorrent v5.1.2 started. Process ID: 147
+(N) 2025-07-12T17:32:47 - Using config directory: /config/qBittorrent
+(N) 2025-07-12T17:32:47 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-07-12T17:32:47 - Peer ID: "-qB5120-"
+(I) 2025-07-12T17:32:47 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-07-12T17:32:47 - Distributed Hash Table (DHT) support: ON
+(I) 2025-07-12T17:32:47 - Local Peer Discovery support: ON
+(I) 2025-07-12T17:32:47 - Peer Exchange (PeX) support: ON
+(I) 2025-07-12T17:32:47 - Anonymous mode: OFF
+(I) 2025-07-12T17:32:47 - Encryption support: ON
+(I) 2025-07-12T17:32:47 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-07-12T17:32:47 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-07-12T17:32:47 - Successfully listening on IP. IP: "172.17.0.2". Port: "TCP/6881"
+(I) 2025-07-12T17:32:47 - Successfully listening on IP. IP: "172.17.0.2". Port: "UTP/6881"
+(I) 2025-07-12T17:32:47 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-07-12T17:32:47 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(I) 2025-07-12T17:32:47 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Jul 1 03:31:13 2025.
+(N) 2025-07-12T17:32:47 - Using built-in WebUI.
+(N) 2025-07-12T17:32:47 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-07-12T17:32:47 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-07-12T17:32:48 - Successfully listening on IP. IP: "fe80::3441:26a7:4a13:f01%tun0". Port: "TCP/6881"
+(I) 2025-07-12T17:32:48 - Successfully listening on IP. IP: "fe80::3441:26a7:4a13:f01%tun0". Port: "UTP/6881"
+(I) 2025-07-12T17:32:48 - Successfully listening on IP. IP: "10.18.110.180". Port: "TCP/6881"
+(I) 2025-07-12T17:32:48 - Successfully listening on IP. IP: "10.18.110.180". Port: "UTP/6881"
+(I) 2025-07-12T17:32:50 - Detected external IP. IP: "154.47.30.49"
+(N) 2025-07-12T17:35:10 - qBittorrent termination initiated
+(N) 2025-07-12T17:35:10 - Saving resume data completed.
+(N) 2025-07-12T17:35:10 - BitTorrent session successfully finished.
+(N) 2025-07-12T17:35:10 - qBittorrent is now ready to exit
+(N) 2025-07-12T17:35:14 - qBittorrent v5.1.2 started. Process ID: 146
+(N) 2025-07-12T17:35:14 - Using config directory: /config/qBittorrent
+(N) 2025-07-12T17:35:14 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-07-12T17:35:14 - Peer ID: "-qB5120-"
+(I) 2025-07-12T17:35:14 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-07-12T17:35:14 - Distributed Hash Table (DHT) support: ON
+(I) 2025-07-12T17:35:14 - Local Peer Discovery support: ON
+(I) 2025-07-12T17:35:14 - Peer Exchange (PeX) support: ON
+(I) 2025-07-12T17:35:14 - Anonymous mode: OFF
+(I) 2025-07-12T17:35:14 - Encryption support: ON
+(I) 2025-07-12T17:35:14 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-07-12T17:35:14 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-07-12T17:35:14 - Successfully listening on IP. IP: "10.18.110.180". Port: "TCP/6881"
+(I) 2025-07-12T17:35:14 - Successfully listening on IP. IP: "10.18.110.180". Port: "UTP/6881"
+(I) 2025-07-12T17:35:14 - Successfully listening on IP. IP: "172.17.0.2". Port: "TCP/6881"
+(I) 2025-07-12T17:35:14 - Successfully listening on IP. IP: "172.17.0.2". Port: "UTP/6881"
+(I) 2025-07-12T17:35:14 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-07-12T17:35:14 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(I) 2025-07-12T17:35:14 - Successfully listening on IP. IP: "fe80::3441:26a7:4a13:f01%tun0". Port: "TCP/6881"
+(I) 2025-07-12T17:35:14 - Successfully listening on IP. IP: "fe80::3441:26a7:4a13:f01%tun0". Port: "UTP/6881"
+(I) 2025-07-12T17:35:14 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Jul 1 03:31:13 2025.
+(N) 2025-07-12T17:35:14 - Using built-in WebUI.
+(N) 2025-07-12T17:35:14 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-07-12T17:35:14 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-07-12T17:35:18 - Detected external IP. IP: "154.47.30.49"
+(N) 2025-07-12T17:37:11 - Trying to listen on the following list of IP addresses: "tun0:6881"
+(N) 2025-07-12T17:45:45 - Added new torrent. Torrent: "Spaceballs 1987 PROPER 2160p BluRay REMUX HEVC DTS HD MA 5 1 FGT"
+(N) 2025-07-12T17:46:11 - Torrent removed. Torrent: "Spaceballs 1987 PROPER 2160p BluRay REMUX HEVC DTS HD MA 5 1 FGT"
+(N) 2025-07-12T17:46:11 - Torrent content removed. Torrent: "Spaceballs 1987 PROPER 2160p BluRay REMUX HEVC DTS HD MA 5 1 FGT"
+(I) 2025-07-12T17:52:51 - Found Python executable. Name: "python3". Version: "3.12.11"

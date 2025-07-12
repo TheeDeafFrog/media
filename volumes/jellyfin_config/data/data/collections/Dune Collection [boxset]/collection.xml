@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Item>
   <ContentRating>PG-13</ContentRating>
-  <Added>03/23/2025 07:02:08</Added>
+  <Added>03/23/2025 09:02:08</Added>
   <LockData>false</LockData>
   <Overview>The saga of Paul Atreides and his rise to power on the deadly planet Arrakis.</Overview>
   <LocalTitle>Dune Collection</LocalTitle>
@@ -16,4 +16,18 @@
   <Studios>
     <Studio>Legendary Pictures</Studio>
   </Studios>
+  <CollectionItems>
+    <CollectionItem>
+      <Path>/mnt/external/Serve/Movies/Dune (2021)/Dune 2021 2160p BluRay x265 HEVC 10bit HDR AAC 7 1 Tigole QxR.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/movies/Dune - Part Two (2024)/Dune Part Two 2024 2160p UHD BluRay DV x265 TrueHD 7 1 ATMOS Z X.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/mnt/external/Serve/Movies/Dune - Part Two (2024)/Dune Part Two 2024 2160p UHD BluRay DV x265 TrueHD 7 1 ATMOS Z X.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/movies/Dune (2021)/Dune 2021 2160p BluRay x265 HEVC 10bit HDR AAC 7 1 Tigole QxR.mkv</Path>
+    </CollectionItem>
+  </CollectionItems>
 </Item>

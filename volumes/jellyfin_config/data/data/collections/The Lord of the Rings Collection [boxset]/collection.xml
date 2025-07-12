@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Item>
   <ContentRating>PG-13</ContentRating>
-  <Added>03/22/2025 09:26:26</Added>
+  <Added>03/22/2025 11:26:26</Added>
   <LockData>false</LockData>
   <Overview>The Lord of the Rings trilogy consists of three epic fantasy films, based on the influential novels written by J. R. R. Tolkien, directed by Peter Jackson.</Overview>
   <LocalTitle>The Lord of the Rings Collection</LocalTitle>
@@ -19,4 +19,24 @@
     <Studio>WingNut Films</Studio>
     <Studio>The Saul Zaentz Company</Studio>
   </Studios>
+  <CollectionItems>
+    <CollectionItem>
+      <Path>/mnt/external/Serve/Movies/The Lord of the Rings - The Fellowship of the Ring (2001)/LOTR.The.Fellowship.Of.The.Rings.2001.PROPER.Bluray.2160p.AV1.HDR10.OPUS.7.1-UH.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/movies/The Lord of the Rings - The Return of the King (2003)/LOTR The Return Of The King 2003 PROPER Bluray 2160p AV1 HDR10 EN.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/mnt/external/Serve/Movies/The Lord of the Rings - The Return of the King (2003)/LOTR The Return Of The King 2003 PROPER Bluray 2160p AV1 HDR10 EN.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/mnt/external/Serve/Movies/The Lord of the Rings - The Two Towers (2002)/The Lord of the Rings The Two Towers (2002) [2160p] [BluRay] [5.1].mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/movies/The Lord of the Rings - The Two Towers (2002)/The Lord of the Rings The Two Towers (2002) [2160p] [BluRay] [5.1].mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/movies/The Lord of the Rings - The Fellowship of the Ring (2001)/LOTR.The.Fellowship.Of.The.Rings.2001.PROPER.Bluray.2160p.AV1.HDR10.OPUS.7.1-UH.mkv</Path>
+    </CollectionItem>
+  </CollectionItems>
 </Item>
