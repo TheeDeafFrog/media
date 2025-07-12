@@ -14,6 +14,7 @@
   imports = [
     ./jellyfin.nix
     ./qbittorrent.nix
+    ./arr.nix
   ];
 
   # # Add docker-compose to system packages, accessible globally from command line
