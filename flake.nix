@@ -10,7 +10,7 @@
     # Define a specific NixOS configuration for your machine.
     # Replace 'your-hostname' with the actual hostname of your machine.
     # You can find your hostname by running 'hostname' in your terminal.
-    nixosConfigurations."nixos" = nixpkgs.lib.nixosSystem {
+    nixosConfigurations."media" = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux"; # Adjust for your architecture
 
       modules = [
