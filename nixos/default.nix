@@ -10,7 +10,7 @@
       ./hardware-configuration.nix
       (import "${home-manager}/nixos")
       ./containers
-      ./vpn
+      # ./vpn
     ];
 
   # Bootloader.

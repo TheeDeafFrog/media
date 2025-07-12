@@ -13,6 +13,7 @@
   # Import individual container configurations
   imports = [
     ./jellyfin.nix
+    ./qbittorrent.nix
   ];
 
   # # Add docker-compose to system packages, accessible globally from command line
