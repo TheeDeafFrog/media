@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Item>
+  <ContentRating>PG</ContentRating>
+  <Added>03/23/2025 16:08:16</Added>
+  <LockData>false</LockData>
+  <Overview>Adventure film series created by George Lucas and Philip Kaufman starring Harrison Ford as archaeologist Dr. Henry Walton "Indiana" Jones, Jr., and directed by Steven Spielberg and James Mangold. Spanning the globe, on death-defying archeological endeavors, if adventure has a name... it must be Indiana Jones.</Overview>
+  <LocalTitle>Indiana Jones Collection</LocalTitle>
+  <PremiereDate>1981-06-12</PremiereDate>
+  <DisplayOrder>PremiereDate</DisplayOrder>
+  <ProductionYear>1981</ProductionYear>
+  <TmdbId>84</TmdbId>
+  <Genres>
+    <Genre>Adventure</Genre>
+    <Genre>Action</Genre>
+  </Genres>
+  <Studios>
+    <Studio>Paramount Pictures</Studio>
+    <Studio>Lucasfilm Ltd.</Studio>
+  </Studios>
+</Item>

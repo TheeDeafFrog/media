@@ -1,0 +1,1644 @@
+[2025-07-12 08:58:01.573 +02:00] [INF] Jellyfin version: "10.10.7"
+[2025-07-12 08:58:01.598 +02:00] [INF] Environment Variables: ["[JELLYFIN_WEB_DIR, /usr/share/jellyfin/web]", "[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_DATA_DIR, /config/data]", "[JELLYFIN_CONFIG_DIR, /config]", "[JELLYFIN_CACHE_DIR, /config/cache]"]
+[2025-07-12 08:58:01.600 +02:00] [INF] Arguments: ["/usr/lib/jellyfin/bin/jellyfin.dll", "--ffmpeg=/usr/lib/jellyfin-ffmpeg/ffmpeg"]
+[2025-07-12 08:58:01.600 +02:00] [INF] Operating system: "Ubuntu 24.04.2 LTS"
+[2025-07-12 08:58:01.600 +02:00] [INF] Architecture: X64
+[2025-07-12 08:58:01.601 +02:00] [INF] 64-Bit Process: True
+[2025-07-12 08:58:01.601 +02:00] [INF] User Interactive: True
+[2025-07-12 08:58:01.601 +02:00] [INF] Processor count: 4
+[2025-07-12 08:58:01.601 +02:00] [INF] Program data path: "/config/data"
+[2025-07-12 08:58:01.601 +02:00] [INF] Log directory path: "/config/log"
+[2025-07-12 08:58:01.601 +02:00] [INF] Config directory path: "/config"
+[2025-07-12 08:58:01.601 +02:00] [INF] Cache path: "/config/cache"
+[2025-07-12 08:58:01.601 +02:00] [INF] Temp directory path: "/tmp/jellyfin"
+[2025-07-12 08:58:01.602 +02:00] [INF] Web resources path: "/usr/share/jellyfin/web"
+[2025-07-12 08:58:01.602 +02:00] [INF] Application directory: "/usr/lib/jellyfin/bin/"
+[2025-07-12 08:58:01.717 +02:00] [INF] Setting cache path: "/config/cache"
+[2025-07-12 08:58:01.808 +02:00] [INF] Loading assemblies
+[2025-07-12 08:58:01.830 +02:00] [INF] Loaded assembly "Jellyfin.Plugin.OpenSubtitles, Version=20.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Open Subtitles_20.0.0.0/Jellyfin.Plugin.OpenSubtitles.dll"
+[2025-07-12 08:58:01.832 +02:00] [INF] Loaded assembly "Jellyfin.Plugin.SubtitleExtract, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Subtitle Extract_4.0.0.0/Jellyfin.Plugin.SubtitleExtract.dll"
+[2025-07-12 08:58:01.833 +02:00] [INF] Loaded assembly "Jellyfin.Plugin.TMDbBoxSets, Version=11.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/TMDb Box Sets_11.0.0.0/Jellyfin.Plugin.TMDbBoxSets.dll"
+[2025-07-12 08:58:01.887 +02:00] [INF] Defined LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2025-07-12 08:58:01.887 +02:00] [INF] Defined LAN exclusions: []
+[2025-07-12 08:58:01.887 +02:00] [INF] Used LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2025-07-12 08:58:01.889 +02:00] [INF] Filtered interface addresses: ["127.0.0.1", "172.17.0.2"]
+[2025-07-12 08:58:01.889 +02:00] [INF] Bind Addresses ["0.0.0.0"]
+[2025-07-12 08:58:01.889 +02:00] [INF] Remote IP filter is "Allowlist"
+[2025-07-12 08:58:01.889 +02:00] [INF] Filtered subnets: []
+[2025-07-12 08:58:03.633 +02:00] [INF] Loaded plugin: "Open Subtitles" "20.0.0.0"
+[2025-07-12 08:58:03.635 +02:00] [INF] Loaded plugin: "Subtitle Extract" "4.0.0.0"
+[2025-07-12 08:58:03.637 +02:00] [INF] Loaded plugin: "TMDb Box Sets" "11.0.0.0"
+[2025-07-12 08:58:03.637 +02:00] [INF] Loaded plugin: "TMDb" "10.10.7.0"
+[2025-07-12 08:58:03.637 +02:00] [INF] Loaded plugin: "Studio Images" "10.10.7.0"
+[2025-07-12 08:58:03.638 +02:00] [INF] Loaded plugin: "OMDb" "10.10.7.0"
+[2025-07-12 08:58:03.656 +02:00] [INF] Loaded plugin: "MusicBrainz" "10.10.7.0"
+[2025-07-12 08:58:03.656 +02:00] [INF] Loaded plugin: "AudioDB" "10.10.7.0"
+[2025-07-12 08:58:03.744 +02:00] [INF] Kestrel is listening on "0.0.0.0"
+[2025-07-12 08:58:03.763 +02:00] [WRN] No XML encryptor configured. Key {e5f5fc04-c021-4bd3-9581-32c88732c868} may be persisted to storage in unencrypted form.
+[2025-07-12 08:58:03.795 +02:00] [INF] Resetting user root folder path to "/config/data/root/default"
+[2025-07-12 08:58:04.319 +02:00] [WRN] The WebRootPath was not found: "/run/s6-rc:s6-rc-init:HBJgIh/servicedirs/svc-jellyfin/wwwroot". Static files may be unavailable.
+[2025-07-12 08:58:04.344 +02:00] [INF] Resetting root folder path to "/config/data/root"
+[2025-07-12 08:58:04.354 +02:00] [ERR] Error loading library options
+System.UnauthorizedAccessException: Access to the path '/var/lib/jellyfin/root/default/Movies/options.xml' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Emby.Server.Implementations.Serialization.MyXmlSerializer.DeserializeFromFile(Type type, String file)
+   at MediaBrowser.Controller.Entities.CollectionFolder.LoadLibraryOptions(String path)
+[2025-07-12 08:58:04.359 +02:00] [ERR] Error loading library options
+System.UnauthorizedAccessException: Access to the path '/var/lib/jellyfin/root/default/Series/options.xml' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Emby.Server.Implementations.Serialization.MyXmlSerializer.DeserializeFromFile(Type type, String file)
+   at MediaBrowser.Controller.Entities.CollectionFolder.LoadLibraryOptions(String path)
+[2025-07-12 08:58:04.360 +02:00] [INF] Running startup tasks
+[2025-07-12 08:58:04.392 +02:00] [INF] Daily trigger for "Generate Trickplay Images" set to fire at 2025-07-13 03:00:00.000 +02:00, which is 18:01:55.6073655 from now.
+[2025-07-12 08:58:04.396 +02:00] [INF] Daily trigger for "Extract Chapter Images" set to fire at 2025-07-13 02:00:00.000 +02:00, which is 17:01:55.6040156 from now.
+[2025-07-12 08:58:04.424 +02:00] [INF] Found ffmpeg version "7.1.1"
+[2025-07-12 08:58:04.500 +02:00] [INF] Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "ac4", "dca", "flac", "mp3", "truehd"]
+[2025-07-12 08:58:04.517 +02:00] [INF] Available "encoders": ["libsvtav1", "av1_nvenc", "av1_qsv", "av1_amf", "av1_vaapi", "libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mjpeg_qsv", "mjpeg_vaapi", "aac", "libfdk_aac", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[2025-07-12 08:58:04.535 +02:00] [INF] Available filters: ["bwdif_cuda", "deinterlace_qsv", "deinterlace_vaapi", "flip_vulkan", "hwupload_cuda", "hwupload_vaapi", "libplacebo", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_vulkan", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "scale_vulkan", "tonemapx", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "transpose_cuda", "transpose_opencl", "transpose_vaapi", "transpose_vulkan", "vpp_qsv", "yadif_cuda", "zscale", "alphasrc"]
+[2025-07-12 08:58:04.642 +02:00] [INF] Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan"]
+[2025-07-12 08:58:07.417 +02:00] [ERR] Error executing Scheduled Task
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at Emby.Server.Implementations.ScheduledTasks.Tasks.DeleteTranscodeFileTask.ExecuteAsync(IProgress`1 progress, CancellationToken cancellationToken)
+   at Emby.Server.Implementations.ScheduledTasks.ScheduledTaskWorker.ExecuteInternal(TaskOptions options)
+[2025-07-12 08:58:07.421 +02:00] [INF] "Clean Transcode Directory" Failed after 0 minute(s) and 0 seconds
+[2025-07-12 08:58:07.501 +02:00] [INF] "Clean up collections and playlists" Completed after 0 minute(s) and 0 seconds
+[2025-07-12 08:58:08.090 +02:00] [INF] FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2025-07-12 08:58:08.093 +02:00] [INF] ServerId: "480a3abf02e74632b9fc6140d99736a6"
+[2025-07-12 08:58:08.094 +02:00] [INF] Core startup complete
+[2025-07-12 08:58:08.094 +02:00] [INF] Startup complete 0:00:06.6768326
+[2025-07-12 08:58:08.236 +02:00] [INF] "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-07-12 08:58:08.248 +02:00] [ERR] Error processing request: "Invalid token". URL "GET" "/socket".
+[2025-07-12 08:58:13.245 +02:00] [INF] "Update Plugins" Completed after 0 minute(s) and 5 seconds
+[2025-07-12 08:59:00.718 +02:00] [INF] Authentication request for "abc" has been denied (IP: "172.17.0.1").
+[2025-07-12 08:59:00.721 +02:00] [ERR] Error processing request: "Invalid username or password entered". URL "POST" "/Users/authenticatebyname".
+[2025-07-12 08:59:46.816 +02:00] [INF] Authentication request for "jellyfin" has been denied (IP: "172.17.0.1").
+[2025-07-12 08:59:46.879 +02:00] [ERR] Error processing request: "Invalid username or password entered". URL "POST" "/Users/authenticatebyname".
+[2025-07-12 08:59:52.868 +02:00] [INF] Authentication request for "kevin" has succeeded.
+[2025-07-12 08:59:52.870 +02:00] [INF] Current/Max sessions for user "kevin": 0/0
+[2025-07-12 08:59:52.871 +02:00] [INF] Creating new access token for user 48403b91-b609-46c8-b486-28925b402c3b
+[2025-07-12 08:59:53.080 +02:00] [INF] WS "172.17.0.1" request
+[2025-07-12 08:59:53.300 +02:00] [ERR] Error loading library options
+System.UnauthorizedAccessException: Access to the path '/var/lib/jellyfin/root/default/Collections/options.xml' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Emby.Server.Implementations.Serialization.MyXmlSerializer.DeserializeFromFile(Type type, String file)
+   at MediaBrowser.Controller.Entities.CollectionFolder.LoadLibraryOptions(String path)
+[2025-07-12 09:00:00.251 +02:00] [INF] User policy for "kevin". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2025-07-12 09:00:00.676 +02:00] [ERR] Error processing request. URL "GET" "/videos/c132fbdc-cd9d-cad0-2f95-afab9b75a83b/master.m3u8".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager.DeleteEncodedMediaCache()
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager..ctor(ILoggerFactory loggerFactory, IFileSystem fileSystem, IApplicationPaths appPaths, IServerConfigurationManager serverConfigurationManager, IUserManager userManager, ISessionManager sessionManager, EncodingHelper encodingHelper, IMediaEncoder mediaEncoder, IMediaSourceManager mediaSourceManager, IAttachmentExtractor attachmentExtractor)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:00:01.695 +02:00] [ERR] Error processing request. URL "GET" "/videos/c132fbdc-cd9d-cad0-2f95-afab9b75a83b/master.m3u8".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager.DeleteEncodedMediaCache()
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager..ctor(ILoggerFactory loggerFactory, IFileSystem fileSystem, IApplicationPaths appPaths, IServerConfigurationManager serverConfigurationManager, IUserManager userManager, ISessionManager sessionManager, EncodingHelper encodingHelper, IMediaEncoder mediaEncoder, IMediaSourceManager mediaSourceManager, IAttachmentExtractor attachmentExtractor)
+   at InvokeStub_TranscodeManager..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:00:01.719 +02:00] [ERR] Error processing request. URL "POST" "/Sessions/Playing".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager.DeleteEncodedMediaCache()
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager..ctor(ILoggerFactory loggerFactory, IFileSystem fileSystem, IApplicationPaths appPaths, IServerConfigurationManager serverConfigurationManager, IUserManager userManager, ISessionManager sessionManager, EncodingHelper encodingHelper, IMediaEncoder mediaEncoder, IMediaSourceManager mediaSourceManager, IAttachmentExtractor attachmentExtractor)
+   at InvokeStub_TranscodeManager..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:00:01.826 +02:00] [INF] User policy for "kevin". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2025-07-12 09:00:01.838 +02:00] [ERR] Error processing request. URL "DELETE" "/Videos/ActiveEncodings".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager.DeleteEncodedMediaCache()
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager..ctor(ILoggerFactory loggerFactory, IFileSystem fileSystem, IApplicationPaths appPaths, IServerConfigurationManager serverConfigurationManager, IUserManager userManager, ISessionManager sessionManager, EncodingHelper encodingHelper, IMediaEncoder mediaEncoder, IMediaSourceManager mediaSourceManager, IAttachmentExtractor attachmentExtractor)
+   at InvokeStub_TranscodeManager..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:00:11.720 +02:00] [ERR] Error processing request. URL "POST" "/Sessions/Playing/Progress".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager.DeleteEncodedMediaCache()
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager..ctor(ILoggerFactory loggerFactory, IFileSystem fileSystem, IApplicationPaths appPaths, IServerConfigurationManager serverConfigurationManager, IUserManager userManager, ISessionManager sessionManager, EncodingHelper encodingHelper, IMediaEncoder mediaEncoder, IMediaSourceManager mediaSourceManager, IAttachmentExtractor attachmentExtractor)
+   at InvokeStub_TranscodeManager..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:00:15.021 +02:00] [INF] WS "172.17.0.1" closed
+[2025-07-12 09:00:40.888 +02:00] [INF] Authentication request for "jellyfin" has succeeded.
+[2025-07-12 09:00:40.888 +02:00] [INF] Current/Max sessions for user "jellyfin": 0/0
+[2025-07-12 09:00:40.888 +02:00] [INF] Creating new access token for user 6bee27fc-2330-4f1d-84df-ff93c20734da
+[2025-07-12 09:00:40.904 +02:00] [INF] WS "172.17.0.1" request
+[2025-07-12 09:00:41.057 +02:00] [ERR] Error processing request. URL "GET" "/System/Info".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at Emby.Server.Implementations.SystemManager.GetSystemInfo(HttpRequest request)
+   at Jellyfin.Api.Controllers.SystemController.GetSystemInfo()
+   at lambda_method1191(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:01:10.895 +02:00] [INF] Authentication request for "jellyfin" has succeeded.
+[2025-07-12 09:01:10.895 +02:00] [INF] Current/Max sessions for user "jellyfin": 1/0
+[2025-07-12 09:01:10.896 +02:00] [INF] Logging out access token "4f8d933a5c4345c2ae9e41fffa5ae64f"
+[2025-07-12 09:01:10.911 +02:00] [INF] Creating new access token for user 6bee27fc-2330-4f1d-84df-ff93c20734da
+[2025-07-12 09:01:10.912 +02:00] [INF] WS "172.17.0.1" closed
+[2025-07-12 09:01:10.927 +02:00] [INF] WS "172.17.0.1" request
+[2025-07-12 09:01:11.009 +02:00] [ERR] Error processing request. URL "GET" "/LiveTv/Programs/Recommended".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager.DeleteEncodedMediaCache()
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager..ctor(ILoggerFactory loggerFactory, IFileSystem fileSystem, IApplicationPaths appPaths, IServerConfigurationManager serverConfigurationManager, IUserManager userManager, ISessionManager sessionManager, EncodingHelper encodingHelper, IMediaEncoder mediaEncoder, IMediaSourceManager mediaSourceManager, IAttachmentExtractor attachmentExtractor)
+   at InvokeStub_TranscodeManager..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:01:16.166 +02:00] [INF] "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-07-12 09:01:16.166 +02:00] [INF] "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-07-12 09:01:16.167 +02:00] [INF] "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-07-12 09:01:16.167 +02:00] [INF] "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-07-12 09:01:16.169 +02:00] [INF] AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-07-12 09:01:16.169 +02:00] [INF] AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-07-12 09:01:16.300 +02:00] [ERR] Error processing request. URL "GET" "/LiveTv/Recordings".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager.DeleteEncodedMediaCache()
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager..ctor(ILoggerFactory loggerFactory, IFileSystem fileSystem, IApplicationPaths appPaths, IServerConfigurationManager serverConfigurationManager, IUserManager userManager, ISessionManager sessionManager, EncodingHelper encodingHelper, IMediaEncoder mediaEncoder, IMediaSourceManager mediaSourceManager, IAttachmentExtractor attachmentExtractor)
+   at InvokeStub_TranscodeManager..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:01:17.230 +02:00] [INF] "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-07-12 09:01:17.231 +02:00] [INF] "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-07-12 09:01:17.231 +02:00] [INF] AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-07-12 09:01:17.234 +02:00] [INF] "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-07-12 09:01:17.237 +02:00] [INF] "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-07-12 09:01:17.238 +02:00] [INF] AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-07-12 09:01:19.249 +02:00] [INF] "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-07-12 09:01:19.249 +02:00] [INF] "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-07-12 09:01:19.249 +02:00] [INF] AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-07-12 09:01:19.318 +02:00] [INF] "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-07-12 09:01:19.318 +02:00] [INF] "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-07-12 09:01:19.318 +02:00] [INF] AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-07-12 09:01:23.257 +02:00] [INF] "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-07-12 09:01:23.258 +02:00] [INF] "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-07-12 09:01:23.258 +02:00] [INF] AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-07-12 09:01:23.325 +02:00] [INF] "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-07-12 09:01:23.325 +02:00] [INF] "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-07-12 09:01:23.325 +02:00] [INF] AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-07-12 09:01:30.715 +02:00] [INF] Validating media library
+[2025-07-12 09:01:30.847 +02:00] [ERR] Error in GetFilteredFileSystemEntries isPhysicalRoot: False IsVf: False
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/mnt/external/Serve/Series'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.FileSystemInfos(String directory, String expression, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFileSystemEntries(String path, Boolean recursive)
+   at MediaBrowser.Controller.Providers.DirectoryService.<>c.<GetFileSystemEntries>b__5_0(String p, IFileSystem fileSystem)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at MediaBrowser.Controller.Providers.DirectoryService.GetFileSystemEntries(String path)
+   at MediaBrowser.Controller.IO.FileData.GetFilteredFileSystemEntries(IDirectoryService directoryService, String path, IFileSystem fileSystem, IServerApplicationHost appHost, ILogger logger, ItemResolveArgs args, Int32 flattenFolderDepth, Boolean resolveShortcuts)
+   at Emby.Server.Implementations.Library.LibraryManager.ResolvePath(FileSystemMetadata fileInfo, IDirectoryService directoryService, IItemResolver[] resolvers, Folder parent, Nullable`1 collectionType, LibraryOptions libraryOptions)
+[2025-07-12 09:01:30.850 +02:00] [ERR] Error in "PlaylistResolver" resolving "/mnt/external/Serve/Series"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/mnt/external/Serve/Series'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.Library.Resolvers.PlaylistResolver.Resolve(ItemResolveArgs args)
+   at MediaBrowser.Controller.Resolvers.ItemResolver`1.ResolvePath(ItemResolveArgs args)
+   at Emby.Server.Implementations.Library.LibraryManager.Resolve(ItemResolveArgs args, IItemResolver resolver)
+[2025-07-12 09:01:30.986 +02:00] [ERR] Failed to enumerate path "/mnt/external/Serve/Series"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/mnt/external/Serve/Series'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserEntries(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFileSystemEntryPaths(String path, Boolean recursive)
+[2025-07-12 09:01:30.986 +02:00] [WRN] Library folder "/mnt/external/Serve/Series" is inaccessible or empty, skipping
+[2025-07-12 09:01:30.987 +02:00] [WRN] Library folder "/config/data/data/playlists" is inaccessible or empty, skipping
+[2025-07-12 09:01:31.101 +02:00] [ERR] Error in GetFilteredFileSystemEntries isPhysicalRoot: False IsVf: False
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/mnt/external/Serve/Series'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.FileSystemInfos(String directory, String expression, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFileSystemEntries(String path, Boolean recursive)
+   at MediaBrowser.Controller.Providers.DirectoryService.<>c.<GetFileSystemEntries>b__5_0(String p, IFileSystem fileSystem)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at MediaBrowser.Controller.Providers.DirectoryService.GetFileSystemEntries(String path)
+   at MediaBrowser.Controller.IO.FileData.GetFilteredFileSystemEntries(IDirectoryService directoryService, String path, IFileSystem fileSystem, IServerApplicationHost appHost, ILogger logger, ItemResolveArgs args, Int32 flattenFolderDepth, Boolean resolveShortcuts)
+   at Emby.Server.Implementations.Library.LibraryManager.ResolvePath(FileSystemMetadata fileInfo, IDirectoryService directoryService, IItemResolver[] resolvers, Folder parent, Nullable`1 collectionType, LibraryOptions libraryOptions)
+[2025-07-12 09:01:31.102 +02:00] [ERR] Error in "PlaylistResolver" resolving "/mnt/external/Serve/Series"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/mnt/external/Serve/Series'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.Library.Resolvers.PlaylistResolver.Resolve(ItemResolveArgs args)
+   at MediaBrowser.Controller.Resolvers.ItemResolver`1.ResolvePath(ItemResolveArgs args)
+   at Emby.Server.Implementations.Library.LibraryManager.Resolve(ItemResolveArgs args, IItemResolver resolver)
+[2025-07-12 09:01:31.102 +02:00] [ERR] Failed to enumerate path "/mnt/external/Serve/Series"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/mnt/external/Serve/Series'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserEntries(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFileSystemEntryPaths(String path, Boolean recursive)
+[2025-07-12 09:01:31.102 +02:00] [WRN] Library folder "/mnt/external/Serve/Series" is inaccessible or empty, skipping
+[2025-07-12 09:01:31.102 +02:00] [WRN] Library folder "/config/data/data/playlists" is inaccessible or empty, skipping
+[2025-07-12 09:01:38.426 +02:00] [INF] "Scan Media Library" Completed after 0 minute(s) and 7 seconds
+[2025-07-12 09:04:03.499 +02:00] [INF] Sending shutdown notifications
+[2025-07-12 09:04:03.506 +02:00] [INF] WS "172.17.0.1" closed
+[2025-07-12 09:04:03.514 +02:00] [INF] Stopping NAT discovery
+[2025-07-12 09:04:03.521 +02:00] [INF] Running query planner optimizations in the database... This might take a while
+[2025-07-12 09:04:03.545 +02:00] [INF] Disposing "CoreAppHost"
+[2025-07-12 09:04:03.545 +02:00] [INF] Disposing "MusicBrainzArtistProvider"
+[2025-07-12 09:04:03.545 +02:00] [INF] Disposing "MusicBrainzAlbumProvider"
+[2025-07-12 09:04:03.545 +02:00] [INF] Disposing "PluginManager"
+[2025-07-12 09:04:09.617 +02:00] [INF] Jellyfin version: "10.10.7"
+[2025-07-12 09:04:09.641 +02:00] [INF] Environment Variables: ["[JELLYFIN_DATA_DIR, /config/data]", "[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_CONFIG_DIR, /config]", "[JELLYFIN_WEB_DIR, /usr/share/jellyfin/web]", "[JELLYFIN_CACHE_DIR, /config/cache]"]
+[2025-07-12 09:04:09.643 +02:00] [INF] Arguments: ["/usr/lib/jellyfin/bin/jellyfin.dll", "--ffmpeg=/usr/lib/jellyfin-ffmpeg/ffmpeg"]
+[2025-07-12 09:04:09.643 +02:00] [INF] Operating system: "Ubuntu 24.04.2 LTS"
+[2025-07-12 09:04:09.643 +02:00] [INF] Architecture: X64
+[2025-07-12 09:04:09.644 +02:00] [INF] 64-Bit Process: True
+[2025-07-12 09:04:09.644 +02:00] [INF] User Interactive: True
+[2025-07-12 09:04:09.644 +02:00] [INF] Processor count: 4
+[2025-07-12 09:04:09.644 +02:00] [INF] Program data path: "/config/data"
+[2025-07-12 09:04:09.644 +02:00] [INF] Log directory path: "/config/log"
+[2025-07-12 09:04:09.644 +02:00] [INF] Config directory path: "/config"
+[2025-07-12 09:04:09.645 +02:00] [INF] Cache path: "/config/cache"
+[2025-07-12 09:04:09.645 +02:00] [INF] Temp directory path: "/tmp/jellyfin"
+[2025-07-12 09:04:09.645 +02:00] [INF] Web resources path: "/usr/share/jellyfin/web"
+[2025-07-12 09:04:09.645 +02:00] [INF] Application directory: "/usr/lib/jellyfin/bin/"
+[2025-07-12 09:04:09.771 +02:00] [INF] Setting cache path: "/config/cache"
+[2025-07-12 09:04:09.863 +02:00] [INF] Loading assemblies
+[2025-07-12 09:04:09.878 +02:00] [INF] Loaded assembly "Jellyfin.Plugin.OpenSubtitles, Version=20.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Open Subtitles_20.0.0.0/Jellyfin.Plugin.OpenSubtitles.dll"
+[2025-07-12 09:04:09.880 +02:00] [INF] Loaded assembly "Jellyfin.Plugin.SubtitleExtract, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Subtitle Extract_4.0.0.0/Jellyfin.Plugin.SubtitleExtract.dll"
+[2025-07-12 09:04:09.881 +02:00] [INF] Loaded assembly "Jellyfin.Plugin.TMDbBoxSets, Version=11.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/TMDb Box Sets_11.0.0.0/Jellyfin.Plugin.TMDbBoxSets.dll"
+[2025-07-12 09:04:09.943 +02:00] [INF] Defined LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2025-07-12 09:04:09.944 +02:00] [INF] Defined LAN exclusions: []
+[2025-07-12 09:04:09.944 +02:00] [INF] Used LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2025-07-12 09:04:09.945 +02:00] [INF] Filtered interface addresses: ["127.0.0.1", "172.17.0.2"]
+[2025-07-12 09:04:09.946 +02:00] [INF] Bind Addresses ["0.0.0.0"]
+[2025-07-12 09:04:09.946 +02:00] [INF] Remote IP filter is "Allowlist"
+[2025-07-12 09:04:09.946 +02:00] [INF] Filtered subnets: []
+[2025-07-12 09:04:11.543 +02:00] [INF] Loaded plugin: "Open Subtitles" "20.0.0.0"
+[2025-07-12 09:04:11.544 +02:00] [INF] Loaded plugin: "Subtitle Extract" "4.0.0.0"
+[2025-07-12 09:04:11.546 +02:00] [INF] Loaded plugin: "TMDb Box Sets" "11.0.0.0"
+[2025-07-12 09:04:11.546 +02:00] [INF] Loaded plugin: "TMDb" "10.10.7.0"
+[2025-07-12 09:04:11.547 +02:00] [INF] Loaded plugin: "Studio Images" "10.10.7.0"
+[2025-07-12 09:04:11.547 +02:00] [INF] Loaded plugin: "OMDb" "10.10.7.0"
+[2025-07-12 09:04:11.564 +02:00] [INF] Loaded plugin: "MusicBrainz" "10.10.7.0"
+[2025-07-12 09:04:11.564 +02:00] [INF] Loaded plugin: "AudioDB" "10.10.7.0"
+[2025-07-12 09:04:11.650 +02:00] [INF] Kestrel is listening on "0.0.0.0"
+[2025-07-12 09:04:11.696 +02:00] [INF] Resetting user root folder path to "/config/data/root/default"
+[2025-07-12 09:04:12.185 +02:00] [WRN] The WebRootPath was not found: "/run/s6-rc:s6-rc-init:kooach/servicedirs/svc-jellyfin/wwwroot". Static files may be unavailable.
+[2025-07-12 09:04:12.215 +02:00] [INF] Running startup tasks
+[2025-07-12 09:04:12.243 +02:00] [INF] Daily trigger for "Generate Trickplay Images" set to fire at 2025-07-13 03:00:00.000 +02:00, which is 17:55:47.7561662 from now.
+[2025-07-12 09:04:12.246 +02:00] [INF] Daily trigger for "Extract Chapter Images" set to fire at 2025-07-13 02:00:00.000 +02:00, which is 16:55:47.7536081 from now.
+[2025-07-12 09:04:12.273 +02:00] [INF] Found ffmpeg version "7.1.1"
+[2025-07-12 09:04:12.331 +02:00] [INF] Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "ac4", "dca", "flac", "mp3", "truehd"]
+[2025-07-12 09:04:12.348 +02:00] [INF] Available "encoders": ["libsvtav1", "av1_nvenc", "av1_qsv", "av1_amf", "av1_vaapi", "libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mjpeg_qsv", "mjpeg_vaapi", "aac", "libfdk_aac", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[2025-07-12 09:04:12.365 +02:00] [INF] Available filters: ["bwdif_cuda", "deinterlace_qsv", "deinterlace_vaapi", "flip_vulkan", "hwupload_cuda", "hwupload_vaapi", "libplacebo", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_vulkan", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "scale_vulkan", "tonemapx", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "transpose_cuda", "transpose_opencl", "transpose_vaapi", "transpose_vulkan", "vpp_qsv", "yadif_cuda", "zscale", "alphasrc"]
+[2025-07-12 09:04:12.497 +02:00] [INF] Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan"]
+[2025-07-12 09:04:15.255 +02:00] [ERR] Error executing Scheduled Task
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at Emby.Server.Implementations.ScheduledTasks.Tasks.DeleteTranscodeFileTask.ExecuteAsync(IProgress`1 progress, CancellationToken cancellationToken)
+   at Emby.Server.Implementations.ScheduledTasks.ScheduledTaskWorker.ExecuteInternal(TaskOptions options)
+[2025-07-12 09:04:15.265 +02:00] [INF] "Clean Transcode Directory" Failed after 0 minute(s) and 0 seconds
+[2025-07-12 09:04:15.320 +02:00] [INF] "Clean up collections and playlists" Completed after 0 minute(s) and 0 seconds
+[2025-07-12 09:04:15.373 +02:00] [INF] FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2025-07-12 09:04:15.373 +02:00] [INF] ServerId: "480a3abf02e74632b9fc6140d99736a6"
+[2025-07-12 09:04:15.373 +02:00] [INF] Core startup complete
+[2025-07-12 09:04:15.374 +02:00] [INF] Startup complete 0:00:05.9040248
+[2025-07-12 09:04:20.696 +02:00] [INF] "Update Plugins" Completed after 0 minute(s) and 5 seconds
+[2025-07-12 09:04:49.656 +02:00] [INF] Sending shutdown notifications
+[2025-07-12 09:04:49.681 +02:00] [INF] Stopping NAT discovery
+[2025-07-12 09:04:49.692 +02:00] [INF] Running query planner optimizations in the database... This might take a while
+[2025-07-12 09:04:49.716 +02:00] [INF] Disposing "CoreAppHost"
+[2025-07-12 09:04:49.716 +02:00] [INF] Disposing "MusicBrainzArtistProvider"
+[2025-07-12 09:04:49.717 +02:00] [INF] Disposing "MusicBrainzAlbumProvider"
+[2025-07-12 09:04:49.717 +02:00] [INF] Disposing "PluginManager"
+[2025-07-12 09:05:37.520 +02:00] [INF] Jellyfin version: "10.10.7"
+[2025-07-12 09:05:37.549 +02:00] [INF] Environment Variables: ["[JELLYFIN_CACHE_DIR, /config/cache]", "[JELLYFIN_WEB_DIR, /usr/share/jellyfin/web]", "[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_CONFIG_DIR, /config]", "[JELLYFIN_DATA_DIR, /config/data]"]
+[2025-07-12 09:05:37.551 +02:00] [INF] Arguments: ["/usr/lib/jellyfin/bin/jellyfin.dll", "--ffmpeg=/usr/lib/jellyfin-ffmpeg/ffmpeg"]
+[2025-07-12 09:05:37.551 +02:00] [INF] Operating system: "Ubuntu 24.04.2 LTS"
+[2025-07-12 09:05:37.551 +02:00] [INF] Architecture: X64
+[2025-07-12 09:05:37.552 +02:00] [INF] 64-Bit Process: True
+[2025-07-12 09:05:37.552 +02:00] [INF] User Interactive: True
+[2025-07-12 09:05:37.552 +02:00] [INF] Processor count: 4
+[2025-07-12 09:05:37.552 +02:00] [INF] Program data path: "/config/data"
+[2025-07-12 09:05:37.552 +02:00] [INF] Log directory path: "/config/log"
+[2025-07-12 09:05:37.552 +02:00] [INF] Config directory path: "/config"
+[2025-07-12 09:05:37.552 +02:00] [INF] Cache path: "/config/cache"
+[2025-07-12 09:05:37.553 +02:00] [INF] Temp directory path: "/tmp/jellyfin"
+[2025-07-12 09:05:37.553 +02:00] [INF] Web resources path: "/usr/share/jellyfin/web"
+[2025-07-12 09:05:37.553 +02:00] [INF] Application directory: "/usr/lib/jellyfin/bin/"
+[2025-07-12 09:05:37.684 +02:00] [INF] Setting cache path: "/config/cache"
+[2025-07-12 09:05:37.789 +02:00] [INF] Loading assemblies
+[2025-07-12 09:05:37.819 +02:00] [INF] Loaded assembly "Jellyfin.Plugin.OpenSubtitles, Version=20.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Open Subtitles_20.0.0.0/Jellyfin.Plugin.OpenSubtitles.dll"
+[2025-07-12 09:05:37.821 +02:00] [INF] Loaded assembly "Jellyfin.Plugin.SubtitleExtract, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Subtitle Extract_4.0.0.0/Jellyfin.Plugin.SubtitleExtract.dll"
+[2025-07-12 09:05:37.822 +02:00] [INF] Loaded assembly "Jellyfin.Plugin.TMDbBoxSets, Version=11.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/TMDb Box Sets_11.0.0.0/Jellyfin.Plugin.TMDbBoxSets.dll"
+[2025-07-12 09:05:37.878 +02:00] [INF] Defined LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2025-07-12 09:05:37.879 +02:00] [INF] Defined LAN exclusions: []
+[2025-07-12 09:05:37.879 +02:00] [INF] Used LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2025-07-12 09:05:37.880 +02:00] [INF] Filtered interface addresses: ["127.0.0.1", "172.17.0.2"]
+[2025-07-12 09:05:37.881 +02:00] [INF] Bind Addresses ["0.0.0.0"]
+[2025-07-12 09:05:37.881 +02:00] [INF] Remote IP filter is "Allowlist"
+[2025-07-12 09:05:37.881 +02:00] [INF] Filtered subnets: []
+[2025-07-12 09:05:39.874 +02:00] [INF] Loaded plugin: "Open Subtitles" "20.0.0.0"
+[2025-07-12 09:05:39.875 +02:00] [INF] Loaded plugin: "Subtitle Extract" "4.0.0.0"
+[2025-07-12 09:05:39.877 +02:00] [INF] Loaded plugin: "TMDb Box Sets" "11.0.0.0"
+[2025-07-12 09:05:39.878 +02:00] [INF] Loaded plugin: "TMDb" "10.10.7.0"
+[2025-07-12 09:05:39.878 +02:00] [INF] Loaded plugin: "Studio Images" "10.10.7.0"
+[2025-07-12 09:05:39.878 +02:00] [INF] Loaded plugin: "OMDb" "10.10.7.0"
+[2025-07-12 09:05:39.900 +02:00] [INF] Loaded plugin: "MusicBrainz" "10.10.7.0"
+[2025-07-12 09:05:39.901 +02:00] [INF] Loaded plugin: "AudioDB" "10.10.7.0"
+[2025-07-12 09:05:39.998 +02:00] [INF] Kestrel is listening on "0.0.0.0"
+[2025-07-12 09:05:40.047 +02:00] [INF] Resetting user root folder path to "/config/data/root/default"
+[2025-07-12 09:05:40.612 +02:00] [WRN] The WebRootPath was not found: "/run/s6-rc:s6-rc-init:emChhM/servicedirs/svc-jellyfin/wwwroot". Static files may be unavailable.
+[2025-07-12 09:05:40.651 +02:00] [INF] Running startup tasks
+[2025-07-12 09:05:40.681 +02:00] [INF] Daily trigger for "Generate Trickplay Images" set to fire at 2025-07-13 03:00:00.000 +02:00, which is 17:54:19.3189845 from now.
+[2025-07-12 09:05:40.684 +02:00] [INF] Daily trigger for "Extract Chapter Images" set to fire at 2025-07-13 02:00:00.000 +02:00, which is 16:54:19.3157067 from now.
+[2025-07-12 09:05:40.756 +02:00] [INF] Found ffmpeg version "7.1.1"
+[2025-07-12 09:05:40.812 +02:00] [INF] Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "ac4", "dca", "flac", "mp3", "truehd"]
+[2025-07-12 09:05:40.828 +02:00] [INF] Available "encoders": ["libsvtav1", "av1_nvenc", "av1_qsv", "av1_amf", "av1_vaapi", "libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mjpeg_qsv", "mjpeg_vaapi", "aac", "libfdk_aac", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[2025-07-12 09:05:40.845 +02:00] [INF] Available filters: ["bwdif_cuda", "deinterlace_qsv", "deinterlace_vaapi", "flip_vulkan", "hwupload_cuda", "hwupload_vaapi", "libplacebo", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_vulkan", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "scale_vulkan", "tonemapx", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "transpose_cuda", "transpose_opencl", "transpose_vaapi", "transpose_vulkan", "vpp_qsv", "yadif_cuda", "zscale", "alphasrc"]
+[2025-07-12 09:05:40.948 +02:00] [INF] Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan"]
+[2025-07-12 09:05:43.694 +02:00] [ERR] Error executing Scheduled Task
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at Emby.Server.Implementations.ScheduledTasks.Tasks.DeleteTranscodeFileTask.ExecuteAsync(IProgress`1 progress, CancellationToken cancellationToken)
+   at Emby.Server.Implementations.ScheduledTasks.ScheduledTaskWorker.ExecuteInternal(TaskOptions options)
+[2025-07-12 09:05:43.707 +02:00] [INF] "Clean Transcode Directory" Failed after 0 minute(s) and 0 seconds
+[2025-07-12 09:05:43.715 +02:00] [INF] "Clean up collections and playlists" Completed after 0 minute(s) and 0 seconds
+[2025-07-12 09:05:44.105 +02:00] [INF] FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2025-07-12 09:05:44.106 +02:00] [INF] ServerId: "480a3abf02e74632b9fc6140d99736a6"
+[2025-07-12 09:05:44.106 +02:00] [INF] Core startup complete
+[2025-07-12 09:05:44.106 +02:00] [INF] Startup complete 0:00:06.8657126
+[2025-07-12 09:05:49.184 +02:00] [INF] "Update Plugins" Completed after 0 minute(s) and 5 seconds
+[2025-07-12 09:06:42.930 +02:00] [INF] Authentication request for "jellyfin" has succeeded.
+[2025-07-12 09:06:42.932 +02:00] [INF] Current/Max sessions for user "jellyfin": 0/0
+[2025-07-12 09:06:42.935 +02:00] [INF] Creating new access token for user 6bee27fc-2330-4f1d-84df-ff93c20734da
+[2025-07-12 09:06:43.196 +02:00] [INF] WS "172.17.0.1" request
+[2025-07-12 09:06:43.460 +02:00] [ERR] Error loading library options
+System.UnauthorizedAccessException: Access to the path '/var/lib/jellyfin/root/default/Collections/options.xml' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Emby.Server.Implementations.Serialization.MyXmlSerializer.DeserializeFromFile(Type type, String file)
+   at MediaBrowser.Controller.Entities.CollectionFolder.LoadLibraryOptions(String path)
+[2025-07-12 09:06:43.467 +02:00] [ERR] Error loading library options
+System.UnauthorizedAccessException: Access to the path '/var/lib/jellyfin/root/default/Movies/options.xml' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Emby.Server.Implementations.Serialization.MyXmlSerializer.DeserializeFromFile(Type type, String file)
+   at MediaBrowser.Controller.Entities.CollectionFolder.LoadLibraryOptions(String path)
+[2025-07-12 09:06:43.467 +02:00] [ERR] Error loading library options
+System.UnauthorizedAccessException: Access to the path '/var/lib/jellyfin/root/default/Series/options.xml' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Emby.Server.Implementations.Serialization.MyXmlSerializer.DeserializeFromFile(Type type, String file)
+   at MediaBrowser.Controller.Entities.CollectionFolder.LoadLibraryOptions(String path)
+[2025-07-12 09:06:43.601 +02:00] [ERR] Error processing request. URL "GET" "/LiveTv/Programs/Recommended".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager.DeleteEncodedMediaCache()
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager..ctor(ILoggerFactory loggerFactory, IFileSystem fileSystem, IApplicationPaths appPaths, IServerConfigurationManager serverConfigurationManager, IUserManager userManager, ISessionManager sessionManager, EncodingHelper encodingHelper, IMediaEncoder mediaEncoder, IMediaSourceManager mediaSourceManager, IAttachmentExtractor attachmentExtractor)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:06:51.231 +02:00] [ERR] Error processing request. URL "GET" "/System/Info".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at Emby.Server.Implementations.SystemManager.GetSystemInfo(HttpRequest request)
+   at Jellyfin.Api.Controllers.SystemController.GetSystemInfo()
+   at lambda_method1119(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:06:51.347 +02:00] [ERR] Error processing request. URL "GET" "/LiveTv/Recordings".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager.DeleteEncodedMediaCache()
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager..ctor(ILoggerFactory loggerFactory, IFileSystem fileSystem, IApplicationPaths appPaths, IServerConfigurationManager serverConfigurationManager, IUserManager userManager, ISessionManager sessionManager, EncodingHelper encodingHelper, IMediaEncoder mediaEncoder, IMediaSourceManager mediaSourceManager, IAttachmentExtractor attachmentExtractor)
+   at InvokeStub_TranscodeManager..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:06:52.308 +02:00] [ERR] Error processing request. URL "GET" "/System/Info".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at Emby.Server.Implementations.SystemManager.GetSystemInfo(HttpRequest request)
+   at Jellyfin.Api.Controllers.SystemController.GetSystemInfo()
+   at lambda_method1119(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:06:54.405 +02:00] [ERR] Error processing request. URL "GET" "/System/Info".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at Emby.Server.Implementations.SystemManager.GetSystemInfo(HttpRequest request)
+   at Jellyfin.Api.Controllers.SystemController.GetSystemInfo()
+   at lambda_method1119(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:06:58.436 +02:00] [ERR] Error processing request. URL "GET" "/System/Info".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at Emby.Server.Implementations.SystemManager.GetSystemInfo(HttpRequest request)
+   at Jellyfin.Api.Controllers.SystemController.GetSystemInfo()
+   at lambda_method1119(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:07:04.149 +02:00] [INF] Validating media library
+[2025-07-12 09:07:04.468 +02:00] [WRN] Library folder "/movies" is inaccessible or empty, skipping
+[2025-07-12 09:07:04.468 +02:00] [ERR] Error in GetFilteredFileSystemEntries isPhysicalRoot: False IsVf: False
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/mnt/external/Serve/Series'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.FileSystemInfos(String directory, String expression, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFileSystemEntries(String path, Boolean recursive)
+   at MediaBrowser.Controller.Providers.DirectoryService.<>c.<GetFileSystemEntries>b__5_0(String p, IFileSystem fileSystem)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at MediaBrowser.Controller.Providers.DirectoryService.GetFileSystemEntries(String path)
+   at MediaBrowser.Controller.IO.FileData.GetFilteredFileSystemEntries(IDirectoryService directoryService, String path, IFileSystem fileSystem, IServerApplicationHost appHost, ILogger logger, ItemResolveArgs args, Int32 flattenFolderDepth, Boolean resolveShortcuts)
+   at Emby.Server.Implementations.Library.LibraryManager.ResolvePath(FileSystemMetadata fileInfo, IDirectoryService directoryService, IItemResolver[] resolvers, Folder parent, Nullable`1 collectionType, LibraryOptions libraryOptions)
+[2025-07-12 09:07:04.469 +02:00] [ERR] Error in "PlaylistResolver" resolving "/mnt/external/Serve/Series"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/mnt/external/Serve/Series'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.Library.Resolvers.PlaylistResolver.Resolve(ItemResolveArgs args)
+   at MediaBrowser.Controller.Resolvers.ItemResolver`1.ResolvePath(ItemResolveArgs args)
+   at Emby.Server.Implementations.Library.LibraryManager.Resolve(ItemResolveArgs args, IItemResolver resolver)
+[2025-07-12 09:07:04.470 +02:00] [ERR] Failed to enumerate path "/mnt/external/Serve/Series"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/mnt/external/Serve/Series'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserEntries(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFileSystemEntryPaths(String path, Boolean recursive)
+[2025-07-12 09:07:04.470 +02:00] [WRN] Library folder "/mnt/external/Serve/Series" is inaccessible or empty, skipping
+[2025-07-12 09:07:04.472 +02:00] [WRN] Library folder "/config/data/data/playlists" is inaccessible or empty, skipping
+[2025-07-12 09:07:04.521 +02:00] [WRN] Library folder "/movies" is inaccessible or empty, skipping
+[2025-07-12 09:07:04.522 +02:00] [ERR] Error in GetFilteredFileSystemEntries isPhysicalRoot: False IsVf: False
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/mnt/external/Serve/Series'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.FileSystemInfos(String directory, String expression, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFileSystemEntries(String path, Boolean recursive)
+   at MediaBrowser.Controller.Providers.DirectoryService.<>c.<GetFileSystemEntries>b__5_0(String p, IFileSystem fileSystem)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at MediaBrowser.Controller.Providers.DirectoryService.GetFileSystemEntries(String path)
+   at MediaBrowser.Controller.IO.FileData.GetFilteredFileSystemEntries(IDirectoryService directoryService, String path, IFileSystem fileSystem, IServerApplicationHost appHost, ILogger logger, ItemResolveArgs args, Int32 flattenFolderDepth, Boolean resolveShortcuts)
+   at Emby.Server.Implementations.Library.LibraryManager.ResolvePath(FileSystemMetadata fileInfo, IDirectoryService directoryService, IItemResolver[] resolvers, Folder parent, Nullable`1 collectionType, LibraryOptions libraryOptions)
+[2025-07-12 09:07:04.522 +02:00] [ERR] Error in "PlaylistResolver" resolving "/mnt/external/Serve/Series"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/mnt/external/Serve/Series'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.Library.Resolvers.PlaylistResolver.Resolve(ItemResolveArgs args)
+   at MediaBrowser.Controller.Resolvers.ItemResolver`1.ResolvePath(ItemResolveArgs args)
+   at Emby.Server.Implementations.Library.LibraryManager.Resolve(ItemResolveArgs args, IItemResolver resolver)
+[2025-07-12 09:07:04.522 +02:00] [ERR] Failed to enumerate path "/mnt/external/Serve/Series"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/mnt/external/Serve/Series'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserEntries(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFileSystemEntryPaths(String path, Boolean recursive)
+[2025-07-12 09:07:04.523 +02:00] [WRN] Library folder "/mnt/external/Serve/Series" is inaccessible or empty, skipping
+[2025-07-12 09:07:04.523 +02:00] [WRN] Library folder "/config/data/data/playlists" is inaccessible or empty, skipping
+[2025-07-12 09:07:10.771 +02:00] [INF] "Scan Media Library" Completed after 0 minute(s) and 6 seconds
+[2025-07-12 09:07:14.366 +02:00] [INF] Validating media library
+[2025-07-12 09:07:14.411 +02:00] [WRN] Library folder "/movies" is inaccessible or empty, skipping
+[2025-07-12 09:07:14.411 +02:00] [ERR] Error in GetFilteredFileSystemEntries isPhysicalRoot: False IsVf: False
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/mnt/external/Serve/Series'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFileSystemEntries(String path, Boolean recursive)
+   at MediaBrowser.Controller.Providers.DirectoryService.<>c.<GetFileSystemEntries>b__5_0(String p, IFileSystem fileSystem)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at MediaBrowser.Controller.Providers.DirectoryService.GetFileSystemEntries(String path)
+   at MediaBrowser.Controller.IO.FileData.GetFilteredFileSystemEntries(IDirectoryService directoryService, String path, IFileSystem fileSystem, IServerApplicationHost appHost, ILogger logger, ItemResolveArgs args, Int32 flattenFolderDepth, Boolean resolveShortcuts)
+   at Emby.Server.Implementations.Library.LibraryManager.ResolvePath(FileSystemMetadata fileInfo, IDirectoryService directoryService, IItemResolver[] resolvers, Folder parent, Nullable`1 collectionType, LibraryOptions libraryOptions)
+[2025-07-12 09:07:14.411 +02:00] [ERR] Error in "PlaylistResolver" resolving "/mnt/external/Serve/Series"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/mnt/external/Serve/Series'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.Library.Resolvers.PlaylistResolver.Resolve(ItemResolveArgs args)
+   at MediaBrowser.Controller.Resolvers.ItemResolver`1.ResolvePath(ItemResolveArgs args)
+   at Emby.Server.Implementations.Library.LibraryManager.Resolve(ItemResolveArgs args, IItemResolver resolver)
+[2025-07-12 09:07:14.412 +02:00] [ERR] Failed to enumerate path "/mnt/external/Serve/Series"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/mnt/external/Serve/Series'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserEntries(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFileSystemEntryPaths(String path, Boolean recursive)
+[2025-07-12 09:07:14.412 +02:00] [WRN] Library folder "/mnt/external/Serve/Series" is inaccessible or empty, skipping
+[2025-07-12 09:07:14.412 +02:00] [WRN] Library folder "/config/data/data/playlists" is inaccessible or empty, skipping
+[2025-07-12 09:07:14.417 +02:00] [WRN] Library folder "/movies" is inaccessible or empty, skipping
+[2025-07-12 09:07:14.417 +02:00] [ERR] Error in GetFilteredFileSystemEntries isPhysicalRoot: False IsVf: False
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/mnt/external/Serve/Series'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFileSystemEntries(String path, Boolean recursive)
+   at MediaBrowser.Controller.Providers.DirectoryService.<>c.<GetFileSystemEntries>b__5_0(String p, IFileSystem fileSystem)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at MediaBrowser.Controller.Providers.DirectoryService.GetFileSystemEntries(String path)
+   at MediaBrowser.Controller.IO.FileData.GetFilteredFileSystemEntries(IDirectoryService directoryService, String path, IFileSystem fileSystem, IServerApplicationHost appHost, ILogger logger, ItemResolveArgs args, Int32 flattenFolderDepth, Boolean resolveShortcuts)
+   at Emby.Server.Implementations.Library.LibraryManager.ResolvePath(FileSystemMetadata fileInfo, IDirectoryService directoryService, IItemResolver[] resolvers, Folder parent, Nullable`1 collectionType, LibraryOptions libraryOptions)
+[2025-07-12 09:07:14.417 +02:00] [ERR] Error in "PlaylistResolver" resolving "/mnt/external/Serve/Series"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/mnt/external/Serve/Series'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.Library.Resolvers.PlaylistResolver.Resolve(ItemResolveArgs args)
+   at MediaBrowser.Controller.Resolvers.ItemResolver`1.ResolvePath(ItemResolveArgs args)
+   at Emby.Server.Implementations.Library.LibraryManager.Resolve(ItemResolveArgs args, IItemResolver resolver)
+[2025-07-12 09:07:14.418 +02:00] [ERR] Failed to enumerate path "/mnt/external/Serve/Series"
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/mnt/external/Serve/Series'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserEntries(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at Emby.Server.Implementations.IO.ManagedFileSystem.GetFileSystemEntryPaths(String path, Boolean recursive)
+[2025-07-12 09:07:14.418 +02:00] [WRN] Library folder "/mnt/external/Serve/Series" is inaccessible or empty, skipping
+[2025-07-12 09:07:14.419 +02:00] [WRN] Library folder "/config/data/data/playlists" is inaccessible or empty, skipping
+[2025-07-12 09:07:20.602 +02:00] [INF] "Scan Media Library" Completed after 0 minute(s) and 6 seconds
+[2025-07-12 09:07:23.934 +02:00] [ERR] Error processing request. URL "GET" "/LiveTv/Recordings".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager.DeleteEncodedMediaCache()
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager..ctor(ILoggerFactory loggerFactory, IFileSystem fileSystem, IApplicationPaths appPaths, IServerConfigurationManager serverConfigurationManager, IUserManager userManager, ISessionManager sessionManager, EncodingHelper encodingHelper, IMediaEncoder mediaEncoder, IMediaSourceManager mediaSourceManager, IAttachmentExtractor attachmentExtractor)
+   at InvokeStub_TranscodeManager..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:07:23.943 +02:00] [ERR] Error processing request. URL "GET" "/System/Info".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at Emby.Server.Implementations.SystemManager.GetSystemInfo(HttpRequest request)
+   at Jellyfin.Api.Controllers.SystemController.GetSystemInfo()
+   at lambda_method1119(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:07:26.055 +02:00] [ERR] Error processing request. URL "GET" "/LiveTv/Programs/Recommended".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager.DeleteEncodedMediaCache()
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager..ctor(ILoggerFactory loggerFactory, IFileSystem fileSystem, IApplicationPaths appPaths, IServerConfigurationManager serverConfigurationManager, IUserManager userManager, ISessionManager sessionManager, EncodingHelper encodingHelper, IMediaEncoder mediaEncoder, IMediaSourceManager mediaSourceManager, IAttachmentExtractor attachmentExtractor)
+   at InvokeStub_TranscodeManager..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:07:34.816 +02:00] [ERR] Error processing request. URL "GET" "/System/Info".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at Emby.Server.Implementations.SystemManager.GetSystemInfo(HttpRequest request)
+   at Jellyfin.Api.Controllers.SystemController.GetSystemInfo()
+   at lambda_method1119(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:07:34.831 +02:00] [ERR] Error processing request. URL "GET" "/LiveTv/Recordings".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager.DeleteEncodedMediaCache()
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager..ctor(ILoggerFactory loggerFactory, IFileSystem fileSystem, IApplicationPaths appPaths, IServerConfigurationManager serverConfigurationManager, IUserManager userManager, ISessionManager sessionManager, EncodingHelper encodingHelper, IMediaEncoder mediaEncoder, IMediaSourceManager mediaSourceManager, IAttachmentExtractor attachmentExtractor)
+   at InvokeStub_TranscodeManager..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:07:35.855 +02:00] [ERR] Error processing request. URL "GET" "/System/Info".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at Emby.Server.Implementations.SystemManager.GetSystemInfo(HttpRequest request)
+   at Jellyfin.Api.Controllers.SystemController.GetSystemInfo()
+   at lambda_method1119(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:07:37.872 +02:00] [ERR] Error processing request. URL "GET" "/System/Info".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at Emby.Server.Implementations.SystemManager.GetSystemInfo(HttpRequest request)
+   at Jellyfin.Api.Controllers.SystemController.GetSystemInfo()
+   at lambda_method1119(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:07:41.914 +02:00] [ERR] Error processing request. URL "GET" "/System/Info".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at Emby.Server.Implementations.SystemManager.GetSystemInfo(HttpRequest request)
+   at Jellyfin.Api.Controllers.SystemController.GetSystemInfo()
+   at lambda_method1119(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:07:43.841 +02:00] [INF] WS "172.17.0.1" closed
+[2025-07-12 09:07:44.287 +02:00] [ERR] Error processing request. URL "GET" "/System/Info".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at Emby.Server.Implementations.SystemManager.GetSystemInfo(HttpRequest request)
+   at Jellyfin.Api.Controllers.SystemController.GetSystemInfo()
+   at lambda_method1119(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:07:47.826 +02:00] [INF] Authentication request for "jellyfin" has succeeded.
+[2025-07-12 09:07:47.826 +02:00] [INF] Current/Max sessions for user "jellyfin": 0/0
+[2025-07-12 09:07:47.828 +02:00] [INF] Logging out access token "ca084abe92cb49caabf4979d45a3d002"
+[2025-07-12 09:07:47.831 +02:00] [INF] Creating new access token for user 6bee27fc-2330-4f1d-84df-ff93c20734da
+[2025-07-12 09:07:47.897 +02:00] [INF] WS "172.17.0.1" request
+[2025-07-12 09:07:47.988 +02:00] [ERR] Error processing request. URL "GET" "/System/Info".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at Emby.Server.Implementations.SystemManager.GetSystemInfo(HttpRequest request)
+   at Jellyfin.Api.Controllers.SystemController.GetSystemInfo()
+   at lambda_method1119(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:07:49.059 +02:00] [ERR] Error processing request. URL "GET" "/System/Info".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at Emby.Server.Implementations.SystemManager.GetSystemInfo(HttpRequest request)
+   at Jellyfin.Api.Controllers.SystemController.GetSystemInfo()
+   at lambda_method1119(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:07:51.073 +02:00] [ERR] Error processing request. URL "GET" "/System/Info".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at Emby.Server.Implementations.SystemManager.GetSystemInfo(HttpRequest request)
+   at Jellyfin.Api.Controllers.SystemController.GetSystemInfo()
+   at lambda_method1119(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:07:55.099 +02:00] [ERR] Error processing request. URL "GET" "/System/Info".
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at Emby.Server.Implementations.SystemManager.GetSystemInfo(HttpRequest request)
+   at Jellyfin.Api.Controllers.SystemController.GetSystemInfo()
+   at lambda_method1119(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Jellyfin.Api.Middleware.LanFilteringMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager, IServerConfigurationManager serverConfigurationManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)

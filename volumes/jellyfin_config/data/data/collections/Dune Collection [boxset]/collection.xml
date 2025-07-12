@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Item>
+  <ContentRating>PG-13</ContentRating>
+  <Added>03/23/2025 07:02:08</Added>
+  <LockData>false</LockData>
+  <Overview>The saga of Paul Atreides and his rise to power on the deadly planet Arrakis.</Overview>
+  <LocalTitle>Dune Collection</LocalTitle>
+  <PremiereDate>2021-09-15</PremiereDate>
+  <DisplayOrder>PremiereDate</DisplayOrder>
+  <ProductionYear>2021</ProductionYear>
+  <TmdbId>726871</TmdbId>
+  <Genres>
+    <Genre>Science Fiction</Genre>
+    <Genre>Adventure</Genre>
+  </Genres>
+  <Studios>
+    <Studio>Legendary Pictures</Studio>
+  </Studios>
+</Item>

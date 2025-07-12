@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Item>
+  <ContentRating>PG</ContentRating>
+  <Added>03/22/2025 22:17:52</Added>
+  <LockData>false</LockData>
+  <Overview>An epic space-opera theatrical film series, which depicts the adventures of various characters "a long time ago in a galaxy far, far away…."</Overview>
+  <LocalTitle>Star Wars Collection</LocalTitle>
+  <PremiereDate>1977-05-25</PremiereDate>
+  <DisplayOrder>PremiereDate</DisplayOrder>
+  <ProductionYear>1977</ProductionYear>
+  <TmdbId>10</TmdbId>
+  <Genres>
+    <Genre>Adventure</Genre>
+    <Genre>Action</Genre>
+    <Genre>Science Fiction</Genre>
+  </Genres>
+  <Studios>
+    <Studio>Lucasfilm Ltd.</Studio>
+    <Studio>20th Century Fox</Studio>
+    <Studio>Bad Robot</Studio>
+  </Studios>
+</Item>

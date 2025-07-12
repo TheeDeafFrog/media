@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Item>
+  <ContentRating>PG-13</ContentRating>
+  <Added>03/22/2025 09:26:26</Added>
+  <LockData>false</LockData>
+  <Overview>The Lord of the Rings trilogy consists of three epic fantasy films, based on the influential novels written by J. R. R. Tolkien, directed by Peter Jackson.</Overview>
+  <LocalTitle>The Lord of the Rings Collection</LocalTitle>
+  <PremiereDate>2001-12-18</PremiereDate>
+  <DisplayOrder>PremiereDate</DisplayOrder>
+  <ProductionYear>2001</ProductionYear>
+  <TmdbId>119</TmdbId>
+  <Genres>
+    <Genre>Adventure</Genre>
+    <Genre>Fantasy</Genre>
+    <Genre>Action</Genre>
+  </Genres>
+  <Studios>
+    <Studio>New Line Cinema</Studio>
+    <Studio>WingNut Films</Studio>
+    <Studio>The Saul Zaentz Company</Studio>
+  </Studios>
+</Item>

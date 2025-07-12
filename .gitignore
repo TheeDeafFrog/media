@@ -1,1 +1,2 @@
-volumes/
+volumes/jellyfin_config/data/data/subtitles
+volumes/jellyfin_config/data/metadata
