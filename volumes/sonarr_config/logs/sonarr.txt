@@ -6571,3 +6571,7 @@
 2025-07-12 17:52:50.3|Info|Database|Log database compressed
 2025-07-12 17:52:50.3|Info|Database|Vacuuming Main database
 2025-07-12 17:52:50.6|Info|Database|Main database compressed
+2025-07-12 18:07:50.3|Info|RssSyncService|Starting RSS Sync
+2025-07-12 18:07:52.2|Warn|Torznab|Indexer BitSearch (Prowlarr) rss sync didn't cover the period between 05/04/2025 22:00:00 and 05/04/2025 22:00:00 UTC. Search may be required.
+2025-07-12 18:08:00.1|Info|DownloadDecisionMaker|Processing 317 releases
+2025-07-12 18:08:00.9|Info|RssSyncService|RSS Sync Completed. Reports found: 317, Reports grabbed: 0

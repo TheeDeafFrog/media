@@ -6022,3 +6022,1814 @@
 2025-07-12 18:06:08.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0028436s
 2025-07-12 18:06:08.9|Debug|MigrationController|Took: 00:00:00.0149369
 2025-07-12 18:06:09.3|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:06:10.5|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:06:12.3|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:06:12.3|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:06:12.3|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:06:12.3|Debug|ProcessProvider| - [13747] Prowlarr
+2025-07-12 18:06:12.3|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:06:12.3|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:06:12.5|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:12.7|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:12.7|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:12.7|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:12.8|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:12.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0944862s
+2025-07-12 18:06:12.8|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:12.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1019556s
+2025-07-12 18:06:12.9|Debug|MigrationController|Took: 00:00:00.4247423
+2025-07-12 18:06:12.9|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:12.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:12.9|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:12.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:12.9|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:12.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.002429s
+2025-07-12 18:06:12.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:12.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0028065s
+2025-07-12 18:06:12.9|Debug|MigrationController|Took: 00:00:00.0246680
+2025-07-12 18:06:13.5|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:06:14.6|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:06:15.8|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:06:15.8|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:06:15.8|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:06:15.8|Debug|ProcessProvider| - [13771] Prowlarr
+2025-07-12 18:06:15.8|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:06:15.8|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:06:15.8|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:15.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:15.9|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:15.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:16.0|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:16.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0449566s
+2025-07-12 18:06:16.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:16.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0471431s
+2025-07-12 18:06:16.0|Debug|MigrationController|Took: 00:00:00.1920215
+2025-07-12 18:06:16.0|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:16.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:16.0|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:16.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:16.0|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:16.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0014822s
+2025-07-12 18:06:16.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:16.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0017794s
+2025-07-12 18:06:16.0|Debug|MigrationController|Took: 00:00:00.0106376
+2025-07-12 18:06:16.3|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:06:17.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:06:18.4|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:06:18.4|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:06:18.4|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:06:18.4|Debug|ProcessProvider| - [13794] Prowlarr
+2025-07-12 18:06:18.4|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:06:18.4|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:06:18.4|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:18.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:18.5|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:18.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:18.6|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:18.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0444512s
+2025-07-12 18:06:18.6|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:18.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0468342s
+2025-07-12 18:06:18.6|Debug|MigrationController|Took: 00:00:00.2011936
+2025-07-12 18:06:18.6|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:18.6|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:18.6|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:18.6|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:18.6|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:18.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0015036s
+2025-07-12 18:06:18.6|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:18.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0017954s
+2025-07-12 18:06:18.6|Debug|MigrationController|Took: 00:00:00.0106884
+2025-07-12 18:06:18.9|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:06:20.0|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:06:21.1|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:06:21.1|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:06:21.1|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:06:21.1|Debug|ProcessProvider| - [13817] Prowlarr
+2025-07-12 18:06:21.1|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:06:21.1|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:06:21.2|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:21.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:21.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:21.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:21.4|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:21.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0507614s
+2025-07-12 18:06:21.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:21.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0533428s
+2025-07-12 18:06:21.4|Debug|MigrationController|Took: 00:00:00.2396919
+2025-07-12 18:06:21.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:21.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:21.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:21.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:21.4|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:21.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0016074s
+2025-07-12 18:06:21.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:21.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.001931s
+2025-07-12 18:06:21.4|Debug|MigrationController|Took: 00:00:00.0118366
+2025-07-12 18:06:21.8|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:06:22.8|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:06:23.9|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:06:24.0|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:06:24.0|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:06:24.0|Debug|ProcessProvider| - [13840] Prowlarr
+2025-07-12 18:06:24.0|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:06:24.0|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:06:24.0|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:24.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:24.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:24.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:24.2|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:24.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0560118s
+2025-07-12 18:06:24.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:24.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0584138s
+2025-07-12 18:06:24.3|Debug|MigrationController|Took: 00:00:00.2522066
+2025-07-12 18:06:24.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:24.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:24.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:24.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:24.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:24.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0015839s
+2025-07-12 18:06:24.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:24.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0019497s
+2025-07-12 18:06:24.3|Debug|MigrationController|Took: 00:00:00.0117745
+2025-07-12 18:06:24.6|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:06:25.7|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:06:26.9|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:06:26.9|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:06:26.9|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:06:26.9|Debug|ProcessProvider| - [13863] Prowlarr
+2025-07-12 18:06:26.9|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:06:26.9|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:06:27.0|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:27.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:27.1|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:27.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:27.2|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:27.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0588972s
+2025-07-12 18:06:27.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:27.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.061613s
+2025-07-12 18:06:27.2|Debug|MigrationController|Took: 00:00:00.2629004
+2025-07-12 18:06:27.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:27.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:27.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:27.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:27.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:27.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0016875s
+2025-07-12 18:06:27.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:27.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0020817s
+2025-07-12 18:06:27.3|Debug|MigrationController|Took: 00:00:00.0130600
+2025-07-12 18:06:27.6|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:06:28.7|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:06:29.9|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:06:29.9|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:06:29.9|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:06:29.9|Debug|ProcessProvider| - [13886] Prowlarr
+2025-07-12 18:06:29.9|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:06:29.9|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:06:30.0|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:30.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:30.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:30.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:30.2|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:30.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0647743s
+2025-07-12 18:06:30.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:30.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0680272s
+2025-07-12 18:06:30.3|Debug|MigrationController|Took: 00:00:00.2834801
+2025-07-12 18:06:30.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:30.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:30.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:30.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:30.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:30.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0018088s
+2025-07-12 18:06:30.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:30.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0021827s
+2025-07-12 18:06:30.3|Debug|MigrationController|Took: 00:00:00.0131971
+2025-07-12 18:06:30.7|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:06:31.7|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:06:32.7|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:06:32.7|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:06:32.7|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:06:32.7|Debug|ProcessProvider| - [13909] Prowlarr
+2025-07-12 18:06:32.7|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:06:32.7|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:06:32.8|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:32.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:32.9|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:32.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:33.0|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:33.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0507244s
+2025-07-12 18:06:33.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:33.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0532297s
+2025-07-12 18:06:33.0|Debug|MigrationController|Took: 00:00:00.2257796
+2025-07-12 18:06:33.0|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:33.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:33.0|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:33.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:33.0|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:33.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0016144s
+2025-07-12 18:06:33.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:33.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0019395s
+2025-07-12 18:06:33.0|Debug|MigrationController|Took: 00:00:00.0120220
+2025-07-12 18:06:33.3|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:06:34.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:06:35.3|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:06:35.3|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:06:35.3|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:06:35.3|Debug|ProcessProvider| - [13932] Prowlarr
+2025-07-12 18:06:35.4|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:06:35.4|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:06:35.4|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:35.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:35.5|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:35.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:35.6|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:35.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0535964s
+2025-07-12 18:06:35.6|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:35.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0564048s
+2025-07-12 18:06:35.6|Debug|MigrationController|Took: 00:00:00.2427244
+2025-07-12 18:06:35.6|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:35.6|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:35.6|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:35.6|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:35.7|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:35.7|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0018981s
+2025-07-12 18:06:35.7|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:35.7|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0022234s
+2025-07-12 18:06:35.7|Debug|MigrationController|Took: 00:00:00.0120818
+2025-07-12 18:06:36.0|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:06:37.1|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:06:38.0|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:06:38.0|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:06:38.0|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:06:38.0|Debug|ProcessProvider| - [13955] Prowlarr
+2025-07-12 18:06:38.1|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:06:38.1|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:06:38.1|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:38.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:38.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:38.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:38.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:38.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0505901s
+2025-07-12 18:06:38.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:38.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0530326s
+2025-07-12 18:06:38.3|Debug|MigrationController|Took: 00:00:00.2252665
+2025-07-12 18:06:38.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:38.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:38.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:38.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:38.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:38.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0016619s
+2025-07-12 18:06:38.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:38.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.002s
+2025-07-12 18:06:38.3|Debug|MigrationController|Took: 00:00:00.0118958
+2025-07-12 18:06:38.7|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:06:39.7|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:06:40.9|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:06:40.9|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:06:40.9|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:06:40.9|Debug|ProcessProvider| - [13978] Prowlarr
+2025-07-12 18:06:40.9|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:06:40.9|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:06:41.0|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:41.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:41.1|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:41.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:41.2|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:41.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0692337s
+2025-07-12 18:06:41.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:41.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0739534s
+2025-07-12 18:06:41.3|Debug|MigrationController|Took: 00:00:00.3141413
+2025-07-12 18:06:41.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:41.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:41.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:41.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:41.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:41.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0023679s
+2025-07-12 18:06:41.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:41.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0029274s
+2025-07-12 18:06:41.3|Debug|MigrationController|Took: 00:00:00.0174794
+2025-07-12 18:06:41.8|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:06:42.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:06:44.0|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:06:44.0|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:06:44.0|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:06:44.0|Debug|ProcessProvider| - [14001] Prowlarr
+2025-07-12 18:06:44.0|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:06:44.0|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:06:44.1|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:44.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:44.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:44.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:44.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:44.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0645734s
+2025-07-12 18:06:44.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:44.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0674449s
+2025-07-12 18:06:44.4|Debug|MigrationController|Took: 00:00:00.2902796
+2025-07-12 18:06:44.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:44.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:44.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:44.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:44.4|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:44.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0019665s
+2025-07-12 18:06:44.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:44.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0022995s
+2025-07-12 18:06:44.4|Debug|MigrationController|Took: 00:00:00.0147708
+2025-07-12 18:06:44.8|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:06:45.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:06:47.0|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:06:47.0|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:06:47.0|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:06:47.0|Debug|ProcessProvider| - [14024] Prowlarr
+2025-07-12 18:06:47.0|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:06:47.0|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:06:47.1|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:47.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:47.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:47.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:47.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:47.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0651048s
+2025-07-12 18:06:47.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:47.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0683737s
+2025-07-12 18:06:47.3|Debug|MigrationController|Took: 00:00:00.2657389
+2025-07-12 18:06:47.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:47.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:47.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:47.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:47.4|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:47.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0027258s
+2025-07-12 18:06:47.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:47.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0031174s
+2025-07-12 18:06:47.4|Debug|MigrationController|Took: 00:00:00.0151868
+2025-07-12 18:06:47.7|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:06:48.8|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:06:49.9|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:06:49.9|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:06:49.9|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:06:49.9|Debug|ProcessProvider| - [14047] Prowlarr
+2025-07-12 18:06:49.9|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:06:49.9|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:06:50.0|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:50.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:50.1|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:50.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:50.2|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:50.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0519193s
+2025-07-12 18:06:50.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:50.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0548213s
+2025-07-12 18:06:50.2|Debug|MigrationController|Took: 00:00:00.2514188
+2025-07-12 18:06:50.2|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:50.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:50.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:50.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:50.2|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:50.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0026803s
+2025-07-12 18:06:50.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:50.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0032179s
+2025-07-12 18:06:50.2|Debug|MigrationController|Took: 00:00:00.0141430
+2025-07-12 18:06:50.6|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:06:51.7|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:06:52.6|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:06:52.6|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:06:52.6|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:06:52.6|Debug|ProcessProvider| - [14070] Prowlarr
+2025-07-12 18:06:52.6|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:06:52.6|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:06:52.6|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:52.7|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:52.8|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:52.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:52.8|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:52.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0644941s
+2025-07-12 18:06:52.8|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:52.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0675501s
+2025-07-12 18:06:52.9|Debug|MigrationController|Took: 00:00:00.2513492
+2025-07-12 18:06:52.9|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:52.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:52.9|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:52.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:52.9|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:52.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0018746s
+2025-07-12 18:06:52.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:52.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0022092s
+2025-07-12 18:06:52.9|Debug|MigrationController|Took: 00:00:00.0143038
+2025-07-12 18:06:53.2|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:06:54.3|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:06:55.2|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:06:55.2|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:06:55.2|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:06:55.2|Debug|ProcessProvider| - [14093] Prowlarr
+2025-07-12 18:06:55.2|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:06:55.2|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:06:55.3|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:55.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:55.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:55.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:55.4|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:55.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0501603s
+2025-07-12 18:06:55.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:55.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0525444s
+2025-07-12 18:06:55.5|Debug|MigrationController|Took: 00:00:00.2211712
+2025-07-12 18:06:55.5|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:55.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:55.5|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:55.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:55.5|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:55.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0016165s
+2025-07-12 18:06:55.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:55.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0019445s
+2025-07-12 18:06:55.5|Debug|MigrationController|Took: 00:00:00.0119795
+2025-07-12 18:06:55.8|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:06:57.0|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:06:58.1|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:06:58.1|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:06:58.1|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:06:58.1|Debug|ProcessProvider| - [14116] Prowlarr
+2025-07-12 18:06:58.1|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:06:58.1|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:06:58.2|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:58.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:58.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:58.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:58.4|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:58.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0473812s
+2025-07-12 18:06:58.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:58.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0496512s
+2025-07-12 18:06:58.4|Debug|MigrationController|Took: 00:00:00.2224220
+2025-07-12 18:06:58.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:06:58.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:06:58.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:06:58.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:06:58.4|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:06:58.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0015568s
+2025-07-12 18:06:58.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:06:58.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0018651s
+2025-07-12 18:06:58.4|Debug|MigrationController|Took: 00:00:00.0113907
+2025-07-12 18:06:58.7|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:06:59.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:07:01.2|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:07:01.2|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:07:01.2|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:07:01.2|Debug|ProcessProvider| - [14139] Prowlarr
+2025-07-12 18:07:01.2|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:07:01.2|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:07:01.2|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:01.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:01.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:01.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:01.5|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:01.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0556601s
+2025-07-12 18:07:01.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:01.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0580783s
+2025-07-12 18:07:01.5|Debug|MigrationController|Took: 00:00:00.2522341
+2025-07-12 18:07:01.5|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:01.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:01.5|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:01.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:01.5|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:01.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0017643s
+2025-07-12 18:07:01.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:01.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0020785s
+2025-07-12 18:07:01.5|Debug|MigrationController|Took: 00:00:00.0132518
+2025-07-12 18:07:01.9|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:07:03.0|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:07:04.1|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:07:04.1|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:07:04.1|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:07:04.1|Debug|ProcessProvider| - [14162] Prowlarr
+2025-07-12 18:07:04.1|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:07:04.1|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:07:04.1|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:04.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:04.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:04.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:04.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:04.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0580964s
+2025-07-12 18:07:04.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:04.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0623887s
+2025-07-12 18:07:04.4|Debug|MigrationController|Took: 00:00:00.2448574
+2025-07-12 18:07:04.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:04.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:04.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:04.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:04.4|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:04.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0031896s
+2025-07-12 18:07:04.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:04.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0036589s
+2025-07-12 18:07:04.4|Debug|MigrationController|Took: 00:00:00.0152148
+2025-07-12 18:07:04.8|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:07:05.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:07:06.9|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:07:06.9|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:07:06.9|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:07:06.9|Debug|ProcessProvider| - [14185] Prowlarr
+2025-07-12 18:07:06.9|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:07:06.9|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:07:07.0|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:07.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:07.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:07.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:07.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:07.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0820477s
+2025-07-12 18:07:07.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:07.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.085349s
+2025-07-12 18:07:07.3|Debug|MigrationController|Took: 00:00:00.3419566
+2025-07-12 18:07:07.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:07.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:07.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:07.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:07.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:07.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0020451s
+2025-07-12 18:07:07.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:07.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0028256s
+2025-07-12 18:07:07.4|Debug|MigrationController|Took: 00:00:00.0147892
+2025-07-12 18:07:07.8|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:07:08.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:07:09.8|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:07:09.8|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:07:09.8|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:07:09.8|Debug|ProcessProvider| - [14208] Prowlarr
+2025-07-12 18:07:09.8|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:07:09.8|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:07:09.9|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:10.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:10.0|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:10.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:10.1|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:10.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0944157s
+2025-07-12 18:07:10.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:10.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0977678s
+2025-07-12 18:07:10.2|Debug|MigrationController|Took: 00:00:00.3156722
+2025-07-12 18:07:10.2|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:10.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:10.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:10.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:10.2|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:10.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0016097s
+2025-07-12 18:07:10.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:10.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0019386s
+2025-07-12 18:07:10.2|Debug|MigrationController|Took: 00:00:00.0126431
+2025-07-12 18:07:10.6|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:07:11.6|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:07:12.7|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:07:12.7|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:07:12.7|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:07:12.7|Debug|ProcessProvider| - [14231] Prowlarr
+2025-07-12 18:07:12.7|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:07:12.7|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:07:12.7|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:12.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:12.9|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:12.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:12.9|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:12.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0496341s
+2025-07-12 18:07:12.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:12.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0521021s
+2025-07-12 18:07:13.0|Debug|MigrationController|Took: 00:00:00.2326187
+2025-07-12 18:07:13.0|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:13.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:13.0|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:13.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:13.0|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:13.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0016715s
+2025-07-12 18:07:13.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:13.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0020268s
+2025-07-12 18:07:13.0|Debug|MigrationController|Took: 00:00:00.0123503
+2025-07-12 18:07:13.3|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:07:14.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:07:15.2|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:07:15.3|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:07:15.3|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:07:15.3|Debug|ProcessProvider| - [14254] Prowlarr
+2025-07-12 18:07:15.3|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:07:15.3|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:07:15.3|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:15.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:15.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:15.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:15.5|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:15.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0523817s
+2025-07-12 18:07:15.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:15.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0552111s
+2025-07-12 18:07:15.5|Debug|MigrationController|Took: 00:00:00.2134713
+2025-07-12 18:07:15.5|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:15.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:15.5|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:15.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:15.5|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:15.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.002084s
+2025-07-12 18:07:15.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:15.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0024263s
+2025-07-12 18:07:15.5|Debug|MigrationController|Took: 00:00:00.0120730
+2025-07-12 18:07:15.9|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:07:16.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:07:17.8|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:07:17.8|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:07:17.8|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:07:17.8|Debug|ProcessProvider| - [14277] Prowlarr
+2025-07-12 18:07:17.8|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:07:17.8|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:07:17.9|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:18.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:18.0|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:18.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:18.0|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:18.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0451705s
+2025-07-12 18:07:18.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:18.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0476815s
+2025-07-12 18:07:18.1|Debug|MigrationController|Took: 00:00:00.2013852
+2025-07-12 18:07:18.1|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:18.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:18.1|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:18.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:18.1|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:18.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0015696s
+2025-07-12 18:07:18.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:18.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0018934s
+2025-07-12 18:07:18.1|Debug|MigrationController|Took: 00:00:00.0117370
+2025-07-12 18:07:18.4|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:07:19.5|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:07:20.4|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:07:20.4|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:07:20.4|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:07:20.4|Debug|ProcessProvider| - [14300] Prowlarr
+2025-07-12 18:07:20.4|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:07:20.4|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:07:20.4|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:20.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:20.5|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:20.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:20.6|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:20.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0444705s
+2025-07-12 18:07:20.6|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:20.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0466214s
+2025-07-12 18:07:20.6|Debug|MigrationController|Took: 00:00:00.1928572
+2025-07-12 18:07:20.6|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:20.6|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:20.6|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:20.6|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:20.6|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:20.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0017199s
+2025-07-12 18:07:20.6|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:20.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0020254s
+2025-07-12 18:07:20.6|Debug|MigrationController|Took: 00:00:00.0110430
+2025-07-12 18:07:21.0|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:07:22.0|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:07:23.1|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:07:23.1|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:07:23.1|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:07:23.1|Debug|ProcessProvider| - [14323] Prowlarr
+2025-07-12 18:07:23.1|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:07:23.1|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:07:23.2|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:23.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:23.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:23.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:23.4|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:23.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0506193s
+2025-07-12 18:07:23.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:23.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0530224s
+2025-07-12 18:07:23.4|Debug|MigrationController|Took: 00:00:00.2227773
+2025-07-12 18:07:23.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:23.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:23.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:23.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:23.4|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:23.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0016785s
+2025-07-12 18:07:23.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:23.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0020843s
+2025-07-12 18:07:23.4|Debug|MigrationController|Took: 00:00:00.0128963
+2025-07-12 18:07:23.8|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:07:24.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:07:26.0|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:07:26.0|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:07:26.0|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:07:26.0|Debug|ProcessProvider| - [14346] Prowlarr
+2025-07-12 18:07:26.0|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:07:26.0|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:07:26.1|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:26.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:26.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:26.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:26.2|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:26.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0492974s
+2025-07-12 18:07:26.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:26.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0515056s
+2025-07-12 18:07:26.3|Debug|MigrationController|Took: 00:00:00.2190770
+2025-07-12 18:07:26.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:26.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:26.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:26.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:26.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:26.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0015377s
+2025-07-12 18:07:26.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:26.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0018596s
+2025-07-12 18:07:26.3|Debug|MigrationController|Took: 00:00:00.0115143
+2025-07-12 18:07:26.7|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:07:27.8|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:07:29.1|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:07:29.1|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:07:29.1|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:07:29.1|Debug|ProcessProvider| - [14369] Prowlarr
+2025-07-12 18:07:29.1|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:07:29.1|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:07:29.2|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:29.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:29.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:29.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:29.4|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:29.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0568065s
+2025-07-12 18:07:29.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:29.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.05956s
+2025-07-12 18:07:29.4|Debug|MigrationController|Took: 00:00:00.2450343
+2025-07-12 18:07:29.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:29.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:29.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:29.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:29.4|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:29.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0028867s
+2025-07-12 18:07:29.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:29.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0035761s
+2025-07-12 18:07:29.4|Debug|MigrationController|Took: 00:00:00.0159593
+2025-07-12 18:07:29.9|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:07:30.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:07:32.2|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:07:32.3|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:07:32.3|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:07:32.3|Debug|ProcessProvider| - [14392] Prowlarr
+2025-07-12 18:07:32.3|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:07:32.3|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:07:32.3|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:32.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:32.5|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:32.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:32.5|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:32.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0591569s
+2025-07-12 18:07:32.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:32.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0620312s
+2025-07-12 18:07:32.6|Debug|MigrationController|Took: 00:00:00.2536999
+2025-07-12 18:07:32.6|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:32.6|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:32.6|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:32.6|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:32.6|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:32.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0016755s
+2025-07-12 18:07:32.6|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:32.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0020296s
+2025-07-12 18:07:32.6|Debug|MigrationController|Took: 00:00:00.0129426
+2025-07-12 18:07:32.9|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:07:34.0|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:07:35.0|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:07:35.0|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:07:35.0|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:07:35.0|Debug|ProcessProvider| - [14415] Prowlarr
+2025-07-12 18:07:35.0|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:07:35.0|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:07:35.1|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:35.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:35.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:35.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:35.2|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:35.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0443549s
+2025-07-12 18:07:35.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:35.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0464719s
+2025-07-12 18:07:35.2|Debug|MigrationController|Took: 00:00:00.1932392
+2025-07-12 18:07:35.2|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:35.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:35.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:35.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:35.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:35.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0015258s
+2025-07-12 18:07:35.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:35.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0018278s
+2025-07-12 18:07:35.3|Debug|MigrationController|Took: 00:00:00.0110269
+2025-07-12 18:07:35.6|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:07:36.6|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:07:37.6|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:07:37.6|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:07:37.6|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:07:37.6|Debug|ProcessProvider| - [14438] Prowlarr
+2025-07-12 18:07:37.6|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:07:37.6|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:07:37.6|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:37.7|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:37.8|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:37.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:37.8|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:37.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0447197s
+2025-07-12 18:07:37.8|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:37.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0468287s
+2025-07-12 18:07:37.8|Debug|MigrationController|Took: 00:00:00.1970782
+2025-07-12 18:07:37.8|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:37.8|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:37.8|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:37.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:37.8|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:37.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0017397s
+2025-07-12 18:07:37.8|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:37.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0020354s
+2025-07-12 18:07:37.9|Debug|MigrationController|Took: 00:00:00.0110495
+2025-07-12 18:07:38.1|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:07:39.2|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:07:40.2|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:07:40.2|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:07:40.2|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:07:40.2|Debug|ProcessProvider| - [14461] Prowlarr
+2025-07-12 18:07:40.2|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:07:40.2|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:07:40.3|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:40.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:40.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:40.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:40.4|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:40.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.045332s
+2025-07-12 18:07:40.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:40.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.047482s
+2025-07-12 18:07:40.5|Debug|MigrationController|Took: 00:00:00.2008914
+2025-07-12 18:07:40.5|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:40.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:40.5|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:40.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:40.5|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:40.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0014383s
+2025-07-12 18:07:40.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:40.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0017352s
+2025-07-12 18:07:40.5|Debug|MigrationController|Took: 00:00:00.0109040
+2025-07-12 18:07:40.8|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:07:41.8|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:07:42.9|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:07:42.9|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:07:42.9|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:07:42.9|Debug|ProcessProvider| - [14484] Prowlarr
+2025-07-12 18:07:42.9|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:07:42.9|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:07:43.0|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:43.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:43.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:43.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:43.4|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:43.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1178857s
+2025-07-12 18:07:43.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:43.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1208074s
+2025-07-12 18:07:43.4|Debug|MigrationController|Took: 00:00:00.4026947
+2025-07-12 18:07:43.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:43.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:43.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:43.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:43.4|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:43.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0015519s
+2025-07-12 18:07:43.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:43.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0018651s
+2025-07-12 18:07:43.4|Debug|MigrationController|Took: 00:00:00.0128214
+2025-07-12 18:07:43.8|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:07:44.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:07:46.0|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:07:46.0|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:07:46.0|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:07:46.0|Debug|ProcessProvider| - [14507] Prowlarr
+2025-07-12 18:07:46.1|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:07:46.1|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:07:46.2|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:46.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:46.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:46.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:46.5|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:46.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0554149s
+2025-07-12 18:07:46.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:46.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0578352s
+2025-07-12 18:07:46.5|Debug|MigrationController|Took: 00:00:00.3706725
+2025-07-12 18:07:46.5|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:46.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:46.5|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:46.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:46.5|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:46.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0017179s
+2025-07-12 18:07:46.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:46.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0020644s
+2025-07-12 18:07:46.5|Debug|MigrationController|Took: 00:00:00.0129077
+2025-07-12 18:07:46.9|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:07:48.0|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:07:49.0|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:07:49.0|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:07:49.0|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:07:49.0|Debug|ProcessProvider| - [14530] Prowlarr
+2025-07-12 18:07:49.1|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:07:49.1|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:07:49.1|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:49.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:49.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:49.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:49.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:49.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0570259s
+2025-07-12 18:07:49.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:49.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0598781s
+2025-07-12 18:07:49.4|Debug|MigrationController|Took: 00:00:00.2476591
+2025-07-12 18:07:49.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:49.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:49.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:49.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:49.4|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:49.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0015865s
+2025-07-12 18:07:49.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:49.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0019374s
+2025-07-12 18:07:49.4|Debug|MigrationController|Took: 00:00:00.0122816
+2025-07-12 18:07:49.8|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:07:50.3|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-07-12 18:07:50.3|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-07-12 18:07:50.3|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-07-12 18:07:50.3|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-07-12 18:07:50.3|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-07-12 18:07:50.3|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-07-12 18:07:50.4|Info|ReleaseSearchService|Searching indexer(s): [EZTV] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2025-07-12 18:07:50.4|Debug|Cardigann|Adding request for EZTV: https://eztvx.to/home
+2025-07-12 18:07:50.4|Debug|Cardigann|Downloading Feed https://eztvx.to/home
+2025-07-12 18:07:50.4|Info|ReleaseSearchService|Searching indexer(s): [TheRARBG] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-07-12 18:07:50.4|Debug|Cardigann|Adding request for TheRARBG: https://therarbg.to/get-posts/order:-a:category:TV:category:Anime:category:Documentaries:category:TV%20shows:time:10D:paginate_by:100:format:json/
+2025-07-12 18:07:50.4|Debug|Cardigann|Downloading Feed https://therarbg.to/get-posts/order:-a:category:TV:category:Anime:category:Documentaries:category:TV%20shows:time:10D:paginate_by:100:format:json/
+2025-07-12 18:07:50.4|Info|ReleaseSearchService|Searching indexer(s): [BitSearch] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2025-07-12 18:07:50.4|Debug|Cardigann|Adding request for BitSearch: https://bitsearch.to/latest
+2025-07-12 18:07:50.4|Debug|Cardigann|Downloading Feed https://bitsearch.to/latest
+2025-07-12 18:07:50.4|Info|ReleaseSearchService|Searching indexer(s): [LimeTorrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-07-12 18:07:50.4|Debug|Cardigann|Adding request for LimeTorrents: https://www.limetorrents.lol/latest100
+2025-07-12 18:07:50.4|Debug|Cardigann|Downloading Feed https://www.limetorrents.lol/latest100
+2025-07-12 18:07:50.4|Info|ReleaseSearchService|Searching indexer(s): [Torlock] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-07-12 18:07:50.4|Debug|Cardigann|Adding request for Torlock: https://www.torlock.com/television/1/added/desc.html
+2025-07-12 18:07:50.4|Debug|Cardigann|Downloading Feed https://www.torlock.com/television/1/added/desc.html
+2025-07-12 18:07:50.4|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5040, 5045]
+2025-07-12 18:07:50.4|Debug|Cardigann|Adding request for The Pirate Bay: https://apibay.org/precompiled/data_top100_recent.json
+2025-07-12 18:07:50.4|Debug|Cardigann|Downloading Feed https://apibay.org/precompiled/data_top100_recent.json
+2025-07-12 18:07:50.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:07:51.1|Debug|ReleaseSearchService|Total of 50 reports were found for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070] from 1 indexer(s)
+2025-07-12 18:07:51.1|Debug|ReleaseSearchService|Total of 39 reports were found for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5040, 5045] from 1 indexer(s)
+2025-07-12 18:07:52.0|Debug|ReleaseSearchService|Total of 100 reports were found for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000] from 1 indexer(s)
+2025-07-12 18:07:52.1|Debug|ReleaseSearchService|Total of 61 reports were found for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070] from 1 indexer(s)
+2025-07-12 18:07:52.2|Debug|ReleaseSearchService|Total of 67 reports were found for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000] from 1 indexer(s)
+2025-07-12 18:07:52.2|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:07:52.3|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:07:52.3|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:07:52.3|Debug|ProcessProvider| - [14555] Prowlarr
+2025-07-12 18:07:52.3|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:07:52.3|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:07:52.3|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:52.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:52.5|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:52.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:52.5|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:52.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.052537s
+2025-07-12 18:07:52.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:52.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0550523s
+2025-07-12 18:07:52.6|Debug|MigrationController|Took: 00:00:00.2282201
+2025-07-12 18:07:52.6|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:52.6|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:52.6|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:52.6|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:52.6|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:52.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0017031s
+2025-07-12 18:07:52.6|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:52.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0020393s
+2025-07-12 18:07:52.6|Debug|MigrationController|Took: 00:00:00.0131680
+2025-07-12 18:07:52.9|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:07:54.0|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:07:55.1|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:07:55.1|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:07:55.1|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:07:55.1|Debug|ProcessProvider| - [14579] Prowlarr
+2025-07-12 18:07:55.1|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:07:55.1|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:07:55.1|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:55.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:55.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:55.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:55.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:55.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0502231s
+2025-07-12 18:07:55.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:55.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.052556s
+2025-07-12 18:07:55.4|Debug|MigrationController|Took: 00:00:00.2214180
+2025-07-12 18:07:55.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:55.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:55.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:55.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:55.4|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:55.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0016538s
+2025-07-12 18:07:55.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:55.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0019999s
+2025-07-12 18:07:55.4|Debug|MigrationController|Took: 00:00:00.0118963
+2025-07-12 18:07:55.7|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:07:56.8|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:07:58.2|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:07:58.2|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:07:58.2|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:07:58.2|Debug|ProcessProvider| - [14602] Prowlarr
+2025-07-12 18:07:58.2|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:07:58.2|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:07:58.2|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:58.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:58.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:58.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:58.4|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:58.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0509852s
+2025-07-12 18:07:58.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:58.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0535233s
+2025-07-12 18:07:58.4|Debug|MigrationController|Took: 00:00:00.2227746
+2025-07-12 18:07:58.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:07:58.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:07:58.5|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:07:58.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:07:58.5|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:07:58.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0015523s
+2025-07-12 18:07:58.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:07:58.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0019687s
+2025-07-12 18:07:58.5|Debug|MigrationController|Took: 00:00:00.0120918
+2025-07-12 18:07:58.8|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:07:59.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:08:00.1|Debug|ReleaseSearchService|Total of 0 reports were found for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070] from 1 indexer(s)
+2025-07-12 18:08:01.0|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:08:01.0|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:08:01.0|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:08:01.0|Debug|ProcessProvider| - [14625] Prowlarr
+2025-07-12 18:08:01.0|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:08:01.0|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:08:01.0|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:01.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:01.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:01.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:01.2|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:01.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0511377s
+2025-07-12 18:08:01.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:01.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0537173s
+2025-07-12 18:08:01.3|Debug|MigrationController|Took: 00:00:00.2250888
+2025-07-12 18:08:01.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:01.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:01.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:01.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:01.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:01.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0015857s
+2025-07-12 18:08:01.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:01.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0019375s
+2025-07-12 18:08:01.3|Debug|MigrationController|Took: 00:00:00.0116047
+2025-07-12 18:08:01.6|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:08:02.7|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:08:03.8|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:08:03.8|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:08:03.8|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:08:03.8|Debug|ProcessProvider| - [14650] Prowlarr
+2025-07-12 18:08:03.9|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:08:03.9|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:08:03.9|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:04.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:04.1|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:04.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:04.2|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:04.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1115964s
+2025-07-12 18:08:04.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:04.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.115151s
+2025-07-12 18:08:04.3|Debug|MigrationController|Took: 00:00:00.3585982
+2025-07-12 18:08:04.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:04.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:04.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:04.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:04.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:04.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0019726s
+2025-07-12 18:08:04.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:04.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0023482s
+2025-07-12 18:08:04.3|Debug|MigrationController|Took: 00:00:00.0148980
+2025-07-12 18:08:04.8|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:08:05.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:08:07.5|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:08:07.5|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:08:07.5|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:08:07.5|Debug|ProcessProvider| - [14673] Prowlarr
+2025-07-12 18:08:07.6|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:08:07.6|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:08:07.6|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:07.8|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:07.8|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:07.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:07.9|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:07.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0659175s
+2025-07-12 18:08:07.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:07.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0690294s
+2025-07-12 18:08:07.9|Debug|MigrationController|Took: 00:00:00.2870569
+2025-07-12 18:08:07.9|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:07.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:07.9|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:07.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:07.9|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:07.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0029863s
+2025-07-12 18:08:07.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:07.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0035986s
+2025-07-12 18:08:07.9|Debug|MigrationController|Took: 00:00:00.0245888
+2025-07-12 18:08:08.4|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:08:09.5|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:08:10.9|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:08:10.9|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:08:10.9|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:08:10.9|Debug|ProcessProvider| - [14696] Prowlarr
+2025-07-12 18:08:10.9|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:08:10.9|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:08:11.0|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:11.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:11.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:11.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:11.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:11.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0704694s
+2025-07-12 18:08:11.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:11.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.074006s
+2025-07-12 18:08:11.3|Debug|MigrationController|Took: 00:00:00.3084527
+2025-07-12 18:08:11.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:11.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:11.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:11.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:11.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:11.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0019631s
+2025-07-12 18:08:11.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:11.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0023511s
+2025-07-12 18:08:11.4|Debug|MigrationController|Took: 00:00:00.0151959
+2025-07-12 18:08:11.8|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:08:12.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:08:14.2|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:08:14.2|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:08:14.2|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:08:14.2|Debug|ProcessProvider| - [14719] Prowlarr
+2025-07-12 18:08:14.2|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:08:14.2|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:08:14.3|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:14.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:14.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:14.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:14.5|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:14.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.064851s
+2025-07-12 18:08:14.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:14.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0679114s
+2025-07-12 18:08:14.6|Debug|MigrationController|Took: 00:00:00.2826565
+2025-07-12 18:08:14.6|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:14.6|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:14.6|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:14.6|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:14.6|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:14.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0017485s
+2025-07-12 18:08:14.6|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:14.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0021002s
+2025-07-12 18:08:14.6|Debug|MigrationController|Took: 00:00:00.0139201
+2025-07-12 18:08:15.0|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:08:16.1|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:08:17.1|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:08:17.1|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:08:17.1|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:08:17.1|Debug|ProcessProvider| - [14742] Prowlarr
+2025-07-12 18:08:17.1|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:08:17.1|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:08:17.2|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:17.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:17.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:17.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:17.4|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:17.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0656086s
+2025-07-12 18:08:17.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:17.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0687844s
+2025-07-12 18:08:17.4|Debug|MigrationController|Took: 00:00:00.2794069
+2025-07-12 18:08:17.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:17.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:17.5|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:17.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:17.5|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:17.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0017328s
+2025-07-12 18:08:17.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:17.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0020833s
+2025-07-12 18:08:17.5|Debug|MigrationController|Took: 00:00:00.0141634
+2025-07-12 18:08:17.9|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:08:19.0|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:08:20.0|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:08:20.0|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:08:20.0|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:08:20.0|Debug|ProcessProvider| - [14766] Prowlarr
+2025-07-12 18:08:20.0|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:08:20.0|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:08:20.1|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:20.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:20.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:20.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:20.2|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:20.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0487154s
+2025-07-12 18:08:20.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:20.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0510938s
+2025-07-12 18:08:20.3|Debug|MigrationController|Took: 00:00:00.2138962
+2025-07-12 18:08:20.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:20.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:20.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:20.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:20.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:20.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0015814s
+2025-07-12 18:08:20.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:20.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0019033s
+2025-07-12 18:08:20.3|Debug|MigrationController|Took: 00:00:00.0114816
+2025-07-12 18:08:20.6|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:08:21.7|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:08:22.6|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:08:22.6|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:08:22.6|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:08:22.6|Debug|ProcessProvider| - [14789] Prowlarr
+2025-07-12 18:08:22.6|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:08:22.6|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:08:22.6|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:22.7|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:22.7|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:22.7|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:22.8|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:22.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0478633s
+2025-07-12 18:08:22.8|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:22.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0505131s
+2025-07-12 18:08:22.8|Debug|MigrationController|Took: 00:00:00.2043307
+2025-07-12 18:08:22.8|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:22.8|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:22.8|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:22.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:22.8|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:22.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0015551s
+2025-07-12 18:08:22.8|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:22.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0018548s
+2025-07-12 18:08:22.8|Debug|MigrationController|Took: 00:00:00.0112990
+2025-07-12 18:08:23.2|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:08:24.3|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:08:25.3|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:08:25.3|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:08:25.3|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:08:25.3|Debug|ProcessProvider| - [14812] Prowlarr
+2025-07-12 18:08:25.3|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:08:25.3|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:08:25.3|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:25.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:25.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:25.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:25.5|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:25.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0455533s
+2025-07-12 18:08:25.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:25.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0477431s
+2025-07-12 18:08:25.5|Debug|MigrationController|Took: 00:00:00.1940767
+2025-07-12 18:08:25.5|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:25.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:25.5|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:25.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:25.5|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:25.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.001469s
+2025-07-12 18:08:25.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:25.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0017602s
+2025-07-12 18:08:25.5|Debug|MigrationController|Took: 00:00:00.0107140
+2025-07-12 18:08:25.9|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:08:26.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:08:27.9|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:08:27.9|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:08:27.9|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:08:27.9|Debug|ProcessProvider| - [14835] Prowlarr
+2025-07-12 18:08:27.9|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:08:27.9|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:08:27.9|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:28.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:28.1|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:28.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:28.1|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:28.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0442513s
+2025-07-12 18:08:28.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:28.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0462861s
+2025-07-12 18:08:28.1|Debug|MigrationController|Took: 00:00:00.1912533
+2025-07-12 18:08:28.1|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:28.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:28.1|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:28.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:28.1|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:28.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0014674s
+2025-07-12 18:08:28.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:28.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0017597s
+2025-07-12 18:08:28.1|Debug|MigrationController|Took: 00:00:00.0106942
+2025-07-12 18:08:28.5|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:08:29.5|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:08:30.7|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:08:30.7|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:08:30.7|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:08:30.7|Debug|ProcessProvider| - [14858] Prowlarr
+2025-07-12 18:08:30.7|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:08:30.7|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:08:30.8|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:30.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:30.9|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:30.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:30.9|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:30.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0449304s
+2025-07-12 18:08:30.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:30.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.047453s
+2025-07-12 18:08:31.0|Debug|MigrationController|Took: 00:00:00.2123411
+2025-07-12 18:08:31.0|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:31.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:31.0|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:31.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:31.0|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:31.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0015342s
+2025-07-12 18:08:31.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:31.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0018367s
+2025-07-12 18:08:31.0|Debug|MigrationController|Took: 00:00:00.0112148
+2025-07-12 18:08:31.4|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:08:32.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:08:33.4|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:08:33.4|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:08:33.4|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:08:33.4|Debug|ProcessProvider| - [14881] Prowlarr
+2025-07-12 18:08:33.4|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:08:33.4|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:08:33.4|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:33.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:33.6|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:33.6|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:33.6|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:33.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0462322s
+2025-07-12 18:08:33.6|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:33.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0483248s
+2025-07-12 18:08:33.6|Debug|MigrationController|Took: 00:00:00.2037491
+2025-07-12 18:08:33.6|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:33.6|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:33.6|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:33.6|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:33.6|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:33.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.001791s
+2025-07-12 18:08:33.6|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:33.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0021093s
+2025-07-12 18:08:33.6|Debug|MigrationController|Took: 00:00:00.0117675
+2025-07-12 18:08:33.9|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:08:35.0|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:08:36.0|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:08:36.0|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:08:36.0|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:08:36.0|Debug|ProcessProvider| - [14904] Prowlarr
+2025-07-12 18:08:36.0|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:08:36.0|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:08:36.0|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:36.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:36.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:36.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:36.2|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:36.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.044385s
+2025-07-12 18:08:36.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:36.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0464032s
+2025-07-12 18:08:36.2|Debug|MigrationController|Took: 00:00:00.1944379
+2025-07-12 18:08:36.2|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:36.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:36.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:36.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:36.2|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:36.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0016877s
+2025-07-12 18:08:36.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:36.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0019735s
+2025-07-12 18:08:36.2|Debug|MigrationController|Took: 00:00:00.0106132
+2025-07-12 18:08:36.5|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:08:37.6|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:08:38.6|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:08:38.6|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:08:38.6|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:08:38.6|Debug|ProcessProvider| - [14927] Prowlarr
+2025-07-12 18:08:38.6|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:08:38.6|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:08:38.6|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:38.7|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:38.8|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:38.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:38.8|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:38.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.044391s
+2025-07-12 18:08:38.8|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:38.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0464579s
+2025-07-12 18:08:38.8|Debug|MigrationController|Took: 00:00:00.1916129
+2025-07-12 18:08:38.8|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:38.8|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:38.8|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:38.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:38.8|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:38.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0014732s
+2025-07-12 18:08:38.8|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:38.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0017631s
+2025-07-12 18:08:38.8|Debug|MigrationController|Took: 00:00:00.0107664
+2025-07-12 18:08:39.1|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:08:40.2|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:08:41.2|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:08:41.2|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:08:41.2|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:08:41.2|Debug|ProcessProvider| - [14950] Prowlarr
+2025-07-12 18:08:41.2|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:08:41.2|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:08:41.3|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:41.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:41.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:41.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:41.4|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:41.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0450129s
+2025-07-12 18:08:41.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:41.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0472102s
+2025-07-12 18:08:41.4|Debug|MigrationController|Took: 00:00:00.1934592
+2025-07-12 18:08:41.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:41.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:41.5|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:41.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:41.5|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:41.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0017309s
+2025-07-12 18:08:41.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:41.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.002031s
+2025-07-12 18:08:41.5|Debug|MigrationController|Took: 00:00:00.0107190
+2025-07-12 18:08:41.8|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:08:42.8|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:08:43.8|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:08:43.8|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:08:43.8|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:08:43.8|Debug|ProcessProvider| - [14973] Prowlarr
+2025-07-12 18:08:43.8|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:08:43.8|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:08:43.9|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:44.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:44.0|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:44.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:44.1|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:44.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0591684s
+2025-07-12 18:08:44.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:44.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0619402s
+2025-07-12 18:08:44.1|Debug|MigrationController|Took: 00:00:00.2591572
+2025-07-12 18:08:44.1|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:44.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:44.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:44.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:44.2|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:44.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0016075s
+2025-07-12 18:08:44.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:44.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0019201s
+2025-07-12 18:08:44.2|Debug|MigrationController|Took: 00:00:00.0119660
+2025-07-12 18:08:44.5|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:08:45.6|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:08:46.7|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:08:46.8|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:08:46.8|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:08:46.8|Debug|ProcessProvider| - [14996] Prowlarr
+2025-07-12 18:08:46.8|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:08:46.8|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:08:46.8|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:46.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:46.9|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:46.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:47.0|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:47.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0506737s
+2025-07-12 18:08:47.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:47.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0533404s
+2025-07-12 18:08:47.0|Debug|MigrationController|Took: 00:00:00.2275541
+2025-07-12 18:08:47.0|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:47.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:47.0|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:47.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:47.0|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:47.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0016268s
+2025-07-12 18:08:47.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:47.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0019472s
+2025-07-12 18:08:47.1|Debug|MigrationController|Took: 00:00:00.0116880
+2025-07-12 18:08:47.4|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:08:48.5|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:08:50.1|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:08:50.1|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:08:50.1|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:08:50.1|Debug|ProcessProvider| - [15020] Prowlarr
+2025-07-12 18:08:50.1|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:08:50.1|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:08:50.2|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:50.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:50.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:50.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:50.5|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:50.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0586322s
+2025-07-12 18:08:50.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:50.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0616595s
+2025-07-12 18:08:50.5|Debug|MigrationController|Took: 00:00:00.3202534
+2025-07-12 18:08:50.5|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:50.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:50.5|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:50.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:50.5|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:50.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0016996s
+2025-07-12 18:08:50.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:50.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0020046s
+2025-07-12 18:08:50.5|Debug|MigrationController|Took: 00:00:00.0111515
+2025-07-12 18:08:50.9|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:08:51.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:08:53.0|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:08:53.0|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:08:53.0|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:08:53.0|Debug|ProcessProvider| - [15043] Prowlarr
+2025-07-12 18:08:53.0|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:08:53.0|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:08:53.1|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:53.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:53.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:53.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:53.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:53.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0528413s
+2025-07-12 18:08:53.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:53.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0553832s
+2025-07-12 18:08:53.4|Debug|MigrationController|Took: 00:00:00.2555557
+2025-07-12 18:08:53.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:53.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:53.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:53.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:53.4|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:53.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0016685s
+2025-07-12 18:08:53.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:53.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0019807s
+2025-07-12 18:08:53.4|Debug|MigrationController|Took: 00:00:00.0126476
+2025-07-12 18:08:53.8|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:08:54.8|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:08:56.1|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:08:56.2|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:08:56.2|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:08:56.2|Debug|ProcessProvider| - [15066] Prowlarr
+2025-07-12 18:08:56.2|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:08:56.2|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:08:56.2|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:56.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:56.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:56.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:56.4|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:56.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0566545s
+2025-07-12 18:08:56.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:56.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0592491s
+2025-07-12 18:08:56.5|Debug|MigrationController|Took: 00:00:00.2399447
+2025-07-12 18:08:56.5|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:56.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:56.5|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:56.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:56.5|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:56.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.00196s
+2025-07-12 18:08:56.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:56.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0022883s
+2025-07-12 18:08:56.5|Debug|MigrationController|Took: 00:00:00.0125663
+2025-07-12 18:08:56.8|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:08:57.8|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:08:58.9|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:08:58.9|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:08:58.9|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:08:58.9|Debug|ProcessProvider| - [15089] Prowlarr
+2025-07-12 18:08:58.9|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:08:58.9|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:08:59.0|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:59.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:59.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:59.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:59.2|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:59.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0698586s
+2025-07-12 18:08:59.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:59.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0752637s
+2025-07-12 18:08:59.3|Debug|MigrationController|Took: 00:00:00.3014677
+2025-07-12 18:08:59.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:08:59.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:08:59.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:08:59.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:08:59.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:08:59.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0021347s
+2025-07-12 18:08:59.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:08:59.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0025372s
+2025-07-12 18:08:59.3|Debug|MigrationController|Took: 00:00:00.0155008
+2025-07-12 18:08:59.7|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:09:00.8|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:09:01.8|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:09:01.9|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:09:01.9|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:09:01.9|Debug|ProcessProvider| - [15112] Prowlarr
+2025-07-12 18:09:01.9|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:09:01.9|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:09:01.9|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:09:02.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:09:02.1|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:09:02.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:09:02.1|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:09:02.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0553209s
+2025-07-12 18:09:02.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:09:02.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0581215s
+2025-07-12 18:09:02.2|Debug|MigrationController|Took: 00:00:00.2351129
+2025-07-12 18:09:02.2|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:09:02.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:09:02.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:09:02.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:09:02.2|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:09:02.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0017007s
+2025-07-12 18:09:02.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:09:02.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0020729s
+2025-07-12 18:09:02.2|Debug|MigrationController|Took: 00:00:00.0128708
+2025-07-12 18:09:02.6|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:09:03.7|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:09:04.8|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:09:04.8|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:09:04.8|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:09:04.8|Debug|ProcessProvider| - [15135] Prowlarr
+2025-07-12 18:09:04.8|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:09:04.8|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:09:04.8|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:09:05.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:09:05.0|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:09:05.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:09:05.0|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:09:05.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0531574s
+2025-07-12 18:09:05.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:09:05.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0557014s
+2025-07-12 18:09:05.1|Debug|MigrationController|Took: 00:00:00.2330449
+2025-07-12 18:09:05.1|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:09:05.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:09:05.1|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:09:05.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:09:05.1|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:09:05.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0016451s
+2025-07-12 18:09:05.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:09:05.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0019509s
+2025-07-12 18:09:05.1|Debug|MigrationController|Took: 00:00:00.0175582
+2025-07-12 18:09:05.4|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:09:06.5|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:09:07.8|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:09:07.8|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:09:07.8|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:09:07.8|Debug|ProcessProvider| - [15159] Prowlarr
+2025-07-12 18:09:07.8|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:09:07.8|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:09:07.9|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:09:08.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:09:08.0|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:09:08.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:09:08.1|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:09:08.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0798345s
+2025-07-12 18:09:08.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:09:08.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0842112s
+2025-07-12 18:09:08.2|Debug|MigrationController|Took: 00:00:00.3054354
+2025-07-12 18:09:08.2|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:09:08.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:09:08.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:09:08.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:09:08.2|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:09:08.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0019605s
+2025-07-12 18:09:08.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:09:08.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0023205s
+2025-07-12 18:09:08.2|Debug|MigrationController|Took: 00:00:00.0157392
+2025-07-12 18:09:08.7|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:09:09.7|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:09:10.7|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:09:10.8|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:09:10.8|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:09:10.8|Debug|ProcessProvider| - [15182] Prowlarr
+2025-07-12 18:09:10.8|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:09:10.8|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:09:10.8|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:09:10.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-07-12 18:09:10.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-07-12 18:09:10.9|Info|ReleaseSearchService|Searching indexer(s): [Torlock] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2025-07-12 18:09:10.9|Debug|Cardigann|Adding request for Torlock: https://www.torlock.com/movies/1/added/desc.html
+2025-07-12 18:09:10.9|Debug|Cardigann|Downloading Feed https://www.torlock.com/movies/1/added/desc.html
+2025-07-12 18:09:10.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-07-12 18:09:10.9|Info|ReleaseSearchService|Searching indexer(s): [TheRARBG] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2025-07-12 18:09:10.9|Debug|Cardigann|Adding request for TheRARBG: https://therarbg.to/get-posts/order:-a:category:Movies:time:10D:paginate_by:100:format:json/
+2025-07-12 18:09:10.9|Debug|Cardigann|Downloading Feed https://therarbg.to/get-posts/order:-a:category:Movies:time:10D:paginate_by:100:format:json/
+2025-07-12 18:09:10.9|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2020, 2040, 2060, 2030, 2045]
+2025-07-12 18:09:10.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:09:10.9|Debug|Cardigann|Adding request for The Pirate Bay: https://apibay.org/precompiled/data_top100_recent.json
+2025-07-12 18:09:10.9|Debug|Cardigann|Downloading Feed https://apibay.org/precompiled/data_top100_recent.json
+2025-07-12 18:09:11.0|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:09:11.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:09:11.0|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:09:11.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0529288s
+2025-07-12 18:09:11.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:09:11.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0554989s
+2025-07-12 18:09:11.0|Debug|MigrationController|Took: 00:00:00.2351950
+2025-07-12 18:09:11.1|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:09:11.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:09:11.1|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:09:11.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:09:11.1|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:09:11.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0018975s
+2025-07-12 18:09:11.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:09:11.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0022422s
+2025-07-12 18:09:11.1|Debug|MigrationController|Took: 00:00:00.0120838
+2025-07-12 18:09:11.3|Debug|ReleaseSearchService|Total of 1 reports were found for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2020, 2040, 2060, 2030, 2045] from 1 indexer(s)
+2025-07-12 18:09:11.4|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:09:11.4|Debug|ReleaseSearchService|Total of 50 reports were found for Term: [], Offset: 0, Limit: 100, Categories: [2000] from 1 indexer(s)
+2025-07-12 18:09:12.5|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:09:13.5|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:09:13.5|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:09:13.5|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:09:13.5|Debug|ProcessProvider| - [15206] Prowlarr
+2025-07-12 18:09:13.5|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:09:13.5|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:09:13.6|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:09:13.7|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:09:13.7|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:09:13.7|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:09:13.8|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:09:13.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0832586s
+2025-07-12 18:09:13.8|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:09:13.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0869271s
+2025-07-12 18:09:13.9|Debug|MigrationController|Took: 00:00:00.3154850
+2025-07-12 18:09:13.9|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:09:13.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:09:13.9|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:09:13.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:09:13.9|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:09:13.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0023958s
+2025-07-12 18:09:13.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:09:13.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0032396s
+2025-07-12 18:09:13.9|Debug|MigrationController|Took: 00:00:00.0178276
+2025-07-12 18:09:14.3|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:09:15.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:09:16.6|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:09:16.6|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:09:16.6|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:09:16.6|Debug|ProcessProvider| - [15229] Prowlarr
+2025-07-12 18:09:16.6|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:09:16.6|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:09:16.7|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:09:16.8|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:09:16.8|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:09:16.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:09:16.9|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:09:16.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0515388s
+2025-07-12 18:09:16.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:09:16.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0539334s
+2025-07-12 18:09:16.9|Debug|MigrationController|Took: 00:00:00.2407480
+2025-07-12 18:09:16.9|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:09:16.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:09:16.9|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:09:16.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:09:16.9|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:09:16.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0014749s
+2025-07-12 18:09:16.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:09:16.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0018067s
+2025-07-12 18:09:16.9|Debug|MigrationController|Took: 00:00:00.0167546
+2025-07-12 18:09:17.3|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:09:18.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:09:19.5|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:09:19.5|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:09:19.5|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:09:19.5|Debug|ProcessProvider| - [15252] Prowlarr
+2025-07-12 18:09:19.5|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:09:19.5|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:09:19.6|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:09:19.7|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:09:19.8|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:09:19.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:09:19.8|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:09:19.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0686195s
+2025-07-12 18:09:19.8|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:09:19.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0714174s
+2025-07-12 18:09:19.9|Debug|MigrationController|Took: 00:00:00.3012941
+2025-07-12 18:09:19.9|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:09:19.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:09:19.9|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:09:19.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:09:19.9|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:09:19.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0029237s
+2025-07-12 18:09:19.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:09:19.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0033071s
+2025-07-12 18:09:19.9|Debug|MigrationController|Took: 00:00:00.0163763
+2025-07-12 18:09:20.4|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:09:21.5|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:09:22.6|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:09:22.6|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:09:22.6|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:09:22.6|Debug|ProcessProvider| - [15276] Prowlarr
+2025-07-12 18:09:22.6|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:09:22.6|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:09:22.7|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:09:22.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:09:22.9|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:09:22.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:09:22.9|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:09:22.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.05412s
+2025-07-12 18:09:22.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:09:22.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0567738s
+2025-07-12 18:09:23.0|Debug|MigrationController|Took: 00:00:00.2828798
+2025-07-12 18:09:23.0|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:09:23.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:09:23.0|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:09:23.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:09:23.0|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:09:23.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0014588s
+2025-07-12 18:09:23.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:09:23.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0018575s
+2025-07-12 18:09:23.0|Debug|MigrationController|Took: 00:00:00.0138364
+2025-07-12 18:09:23.5|Fatal|ConsoleApp|Failed to bind to address http://[::]:9696: address already in use. This can happen if another instance of Prowlarr is already running another application is using the same port (default: 9696) or the user has insufficient permissions
+2025-07-12 18:09:24.5|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-12 18:09:25.7|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-07-12 18:09:25.8|Debug|ProcessProvider|Found 2 processes with the name: Prowlarr
+2025-07-12 18:09:25.8|Debug|ProcessProvider| - [271] Prowlarr
+2025-07-12 18:09:25.8|Debug|ProcessProvider| - [15299] Prowlarr
+2025-07-12 18:09:25.8|Info|SingleInstancePolicy|1 instance(s) of Prowlarr are running
+2025-07-12 18:09:25.8|Debug|SingleInstancePolicy|Another instance of Prowlarr is already running.
+2025-07-12 18:09:25.8|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:09:26.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:09:26.0|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:09:26.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:09:26.1|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:09:26.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0573717s
+2025-07-12 18:09:26.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:09:26.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0605753s
+2025-07-12 18:09:26.1|Debug|MigrationController|Took: 00:00:00.2711485
+2025-07-12 18:09:26.1|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-07-12 18:09:26.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-07-12 18:09:26.1|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-07-12 18:09:26.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-07-12 18:09:26.1|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-07-12 18:09:26.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0016198s
+2025-07-12 18:09:26.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-07-12 18:09:26.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0019686s
+2025-07-12 18:09:26.1|Debug|MigrationController|Took: 00:00:00.0158374
