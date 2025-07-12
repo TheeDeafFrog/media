@@ -6575,3 +6575,7 @@
 2025-07-12 18:07:52.2|Warn|Torznab|Indexer BitSearch (Prowlarr) rss sync didn't cover the period between 05/04/2025 22:00:00 and 05/04/2025 22:00:00 UTC. Search may be required.
 2025-07-12 18:08:00.1|Info|DownloadDecisionMaker|Processing 317 releases
 2025-07-12 18:08:00.9|Info|RssSyncService|RSS Sync Completed. Reports found: 317, Reports grabbed: 0
+2025-07-12 18:23:20.4|Info|RssSyncService|Starting RSS Sync
+2025-07-12 18:23:21.7|Warn|Torznab|Indexer BitSearch (Prowlarr) rss sync didn't cover the period between 05/04/2025 22:00:00 and 05/04/2025 22:00:00 UTC. Search may be required.
+2025-07-12 18:23:24.3|Info|DownloadDecisionMaker|Processing 315 releases
+2025-07-12 18:23:24.9|Info|RssSyncService|RSS Sync Completed. Reports found: 315, Reports grabbed: 0
