@@ -747,3 +747,7 @@
 (I) 2025-07-12T15:47:44 - Updating plugin limetorrents
 (I) 2025-07-12T15:47:44 - Updating plugin piratebay
 (I) 2025-07-12T15:47:44 - Updating plugin torrentproject
+(I) 2025-07-12T16:46:41 - Successfully listening on IP. IP: "fe80::f02f:11e0:c921:8573%tun0". Port: "TCP/6881"
+(I) 2025-07-12T16:46:41 - Successfully listening on IP. IP: "fe80::f02f:11e0:c921:8573%tun0". Port: "UTP/6881"
+(I) 2025-07-12T16:46:41 - Successfully listening on IP. IP: "10.21.110.177". Port: "TCP/6881"
+(I) 2025-07-12T16:46:41 - Successfully listening on IP. IP: "10.21.110.177". Port: "UTP/6881"
