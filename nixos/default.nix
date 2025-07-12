@@ -10,6 +10,7 @@
       ./hardware-configuration.nix
       (import "${home-manager}/nixos")
       ./containers
+      ./vpn
     ];
 
   # Bootloader.
@@ -85,6 +86,7 @@
       ];
     })
     git
+    unzip
   ];
 
   fileSystems."/data/media" = {

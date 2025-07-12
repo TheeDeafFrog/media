@@ -1642,3 +1642,142 @@ System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/tran
    at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
    at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
    at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2025-07-12 09:15:09.768 +02:00] [INF] WS "172.17.0.1" closed
+[2025-07-12 12:48:17.585 +02:00] [INF] Sending shutdown notifications
+[2025-07-12 12:48:17.608 +02:00] [INF] Stopping NAT discovery
+[2025-07-12 12:48:17.616 +02:00] [INF] Running query planner optimizations in the database... This might take a while
+[2025-07-12 12:48:17.665 +02:00] [INF] Disposing "CoreAppHost"
+[2025-07-12 12:48:17.665 +02:00] [INF] Disposing "MusicBrainzArtistProvider"
+[2025-07-12 12:48:17.665 +02:00] [INF] Disposing "MusicBrainzAlbumProvider"
+[2025-07-12 12:48:17.665 +02:00] [INF] Disposing "PluginManager"
+[2025-07-12 12:49:02.064 +02:00] [INF] Jellyfin version: "10.10.7"
+[2025-07-12 12:49:02.111 +02:00] [INF] Environment Variables: ["[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_CACHE_DIR, /config/cache]", "[JELLYFIN_CONFIG_DIR, /config]", "[JELLYFIN_DATA_DIR, /config/data]", "[JELLYFIN_WEB_DIR, /usr/share/jellyfin/web]"]
+[2025-07-12 12:49:02.114 +02:00] [INF] Arguments: ["/usr/lib/jellyfin/bin/jellyfin.dll", "--ffmpeg=/usr/lib/jellyfin-ffmpeg/ffmpeg"]
+[2025-07-12 12:49:02.116 +02:00] [INF] Operating system: "Ubuntu 24.04.2 LTS"
+[2025-07-12 12:49:02.117 +02:00] [INF] Architecture: X64
+[2025-07-12 12:49:02.118 +02:00] [INF] 64-Bit Process: True
+[2025-07-12 12:49:02.119 +02:00] [INF] User Interactive: True
+[2025-07-12 12:49:02.119 +02:00] [INF] Processor count: 4
+[2025-07-12 12:49:02.119 +02:00] [INF] Program data path: "/config/data"
+[2025-07-12 12:49:02.119 +02:00] [INF] Log directory path: "/config/log"
+[2025-07-12 12:49:02.119 +02:00] [INF] Config directory path: "/config"
+[2025-07-12 12:49:02.119 +02:00] [INF] Cache path: "/config/cache"
+[2025-07-12 12:49:02.119 +02:00] [INF] Temp directory path: "/tmp/jellyfin"
+[2025-07-12 12:49:02.119 +02:00] [INF] Web resources path: "/usr/share/jellyfin/web"
+[2025-07-12 12:49:02.120 +02:00] [INF] Application directory: "/usr/lib/jellyfin/bin/"
+[2025-07-12 12:49:02.311 +02:00] [INF] Setting cache path: "/config/cache"
+[2025-07-12 12:49:02.440 +02:00] [INF] Loading assemblies
+[2025-07-12 12:49:02.461 +02:00] [INF] Loaded assembly "Jellyfin.Plugin.OpenSubtitles, Version=20.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Open Subtitles_20.0.0.0/Jellyfin.Plugin.OpenSubtitles.dll"
+[2025-07-12 12:49:02.463 +02:00] [INF] Loaded assembly "Jellyfin.Plugin.SubtitleExtract, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Subtitle Extract_4.0.0.0/Jellyfin.Plugin.SubtitleExtract.dll"
+[2025-07-12 12:49:02.465 +02:00] [INF] Loaded assembly "Jellyfin.Plugin.TMDbBoxSets, Version=11.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/TMDb Box Sets_11.0.0.0/Jellyfin.Plugin.TMDbBoxSets.dll"
+[2025-07-12 12:49:02.526 +02:00] [INF] Defined LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2025-07-12 12:49:02.526 +02:00] [INF] Defined LAN exclusions: []
+[2025-07-12 12:49:02.527 +02:00] [INF] Used LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2025-07-12 12:49:02.528 +02:00] [INF] Filtered interface addresses: ["127.0.0.1", "172.17.0.2"]
+[2025-07-12 12:49:02.528 +02:00] [INF] Bind Addresses ["0.0.0.0"]
+[2025-07-12 12:49:02.529 +02:00] [INF] Remote IP filter is "Allowlist"
+[2025-07-12 12:49:02.529 +02:00] [INF] Filtered subnets: []
+[2025-07-12 12:49:04.197 +02:00] [INF] Loaded plugin: "Open Subtitles" "20.0.0.0"
+[2025-07-12 12:49:04.199 +02:00] [INF] Loaded plugin: "Subtitle Extract" "4.0.0.0"
+[2025-07-12 12:49:04.200 +02:00] [INF] Loaded plugin: "TMDb Box Sets" "11.0.0.0"
+[2025-07-12 12:49:04.201 +02:00] [INF] Loaded plugin: "TMDb" "10.10.7.0"
+[2025-07-12 12:49:04.201 +02:00] [INF] Loaded plugin: "Studio Images" "10.10.7.0"
+[2025-07-12 12:49:04.201 +02:00] [INF] Loaded plugin: "OMDb" "10.10.7.0"
+[2025-07-12 12:49:04.218 +02:00] [INF] Loaded plugin: "MusicBrainz" "10.10.7.0"
+[2025-07-12 12:49:04.218 +02:00] [INF] Loaded plugin: "AudioDB" "10.10.7.0"
+[2025-07-12 12:49:04.304 +02:00] [INF] Kestrel is listening on "0.0.0.0"
+[2025-07-12 12:49:04.349 +02:00] [INF] Resetting user root folder path to "/config/data/root/default"
+[2025-07-12 12:49:04.845 +02:00] [WRN] The WebRootPath was not found: "/run/s6-rc:s6-rc-init:MfGmjj/servicedirs/svc-jellyfin/wwwroot". Static files may be unavailable.
+[2025-07-12 12:49:04.883 +02:00] [INF] Running startup tasks
+[2025-07-12 12:49:04.909 +02:00] [INF] Daily trigger for "Generate Trickplay Images" set to fire at 2025-07-13 03:00:00.000 +02:00, which is 14:10:55.0908588 from now.
+[2025-07-12 12:49:04.912 +02:00] [INF] Daily trigger for "Extract Chapter Images" set to fire at 2025-07-13 02:00:00.000 +02:00, which is 13:10:55.0879770 from now.
+[2025-07-12 12:49:04.984 +02:00] [INF] Found ffmpeg version "7.1.1"
+[2025-07-12 12:49:05.037 +02:00] [INF] Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "ac4", "dca", "flac", "mp3", "truehd"]
+[2025-07-12 12:49:05.052 +02:00] [INF] Available "encoders": ["libsvtav1", "av1_nvenc", "av1_qsv", "av1_amf", "av1_vaapi", "libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mjpeg_qsv", "mjpeg_vaapi", "aac", "libfdk_aac", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[2025-07-12 12:49:05.068 +02:00] [INF] Available filters: ["bwdif_cuda", "deinterlace_qsv", "deinterlace_vaapi", "flip_vulkan", "hwupload_cuda", "hwupload_vaapi", "libplacebo", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_vulkan", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "scale_vulkan", "tonemapx", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "transpose_cuda", "transpose_opencl", "transpose_vaapi", "transpose_vulkan", "vpp_qsv", "yadif_cuda", "zscale", "alphasrc"]
+[2025-07-12 12:49:05.170 +02:00] [INF] Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan"]
+[2025-07-12 12:49:07.845 +02:00] [INF] FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2025-07-12 12:49:07.847 +02:00] [INF] ServerId: "480a3abf02e74632b9fc6140d99736a6"
+[2025-07-12 12:49:07.847 +02:00] [INF] Core startup complete
+[2025-07-12 12:49:07.847 +02:00] [INF] Startup complete 0:00:06.2382173
+[2025-07-12 12:49:07.930 +02:00] [ERR] Error executing Scheduled Task
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at Emby.Server.Implementations.ScheduledTasks.Tasks.DeleteTranscodeFileTask.ExecuteAsync(IProgress`1 progress, CancellationToken cancellationToken)
+   at Emby.Server.Implementations.ScheduledTasks.ScheduledTaskWorker.ExecuteInternal(TaskOptions options)
+[2025-07-12 12:49:07.947 +02:00] [INF] "Clean Transcode Directory" Failed after 0 minute(s) and 0 seconds
+[2025-07-12 12:49:07.983 +02:00] [INF] "Clean up collections and playlists" Completed after 0 minute(s) and 0 seconds
+[2025-07-12 12:49:13.470 +02:00] [INF] "Update Plugins" Completed after 0 minute(s) and 5 seconds
+[2025-07-12 13:06:22.507 +02:00] [INF] Sending shutdown notifications
+[2025-07-12 13:06:22.521 +02:00] [INF] Stopping NAT discovery
+[2025-07-12 13:06:22.527 +02:00] [INF] Running query planner optimizations in the database... This might take a while
+[2025-07-12 13:06:22.557 +02:00] [INF] Disposing "CoreAppHost"
+[2025-07-12 13:06:22.557 +02:00] [INF] Disposing "MusicBrainzArtistProvider"
+[2025-07-12 13:06:22.557 +02:00] [INF] Disposing "MusicBrainzAlbumProvider"
+[2025-07-12 13:06:22.558 +02:00] [INF] Disposing "PluginManager"
+[2025-07-12 13:07:07.389 +02:00] [INF] Jellyfin version: "10.10.7"
+[2025-07-12 13:07:07.421 +02:00] [INF] Environment Variables: ["[JELLYFIN_CONFIG_DIR, /config]", "[JELLYFIN_WEB_DIR, /usr/share/jellyfin/web]", "[JELLYFIN_CACHE_DIR, /config/cache]", "[JELLYFIN_DATA_DIR, /config/data]", "[JELLYFIN_LOG_DIR, /config/log]"]
+[2025-07-12 13:07:07.423 +02:00] [INF] Arguments: ["/usr/lib/jellyfin/bin/jellyfin.dll", "--ffmpeg=/usr/lib/jellyfin-ffmpeg/ffmpeg"]
+[2025-07-12 13:07:07.424 +02:00] [INF] Operating system: "Ubuntu 24.04.2 LTS"
+[2025-07-12 13:07:07.424 +02:00] [INF] Architecture: X64
+[2025-07-12 13:07:07.424 +02:00] [INF] 64-Bit Process: True
+[2025-07-12 13:07:07.425 +02:00] [INF] User Interactive: True
+[2025-07-12 13:07:07.425 +02:00] [INF] Processor count: 4
+[2025-07-12 13:07:07.425 +02:00] [INF] Program data path: "/config/data"
+[2025-07-12 13:07:07.425 +02:00] [INF] Log directory path: "/config/log"
+[2025-07-12 13:07:07.425 +02:00] [INF] Config directory path: "/config"
+[2025-07-12 13:07:07.425 +02:00] [INF] Cache path: "/config/cache"
+[2025-07-12 13:07:07.425 +02:00] [INF] Temp directory path: "/tmp/jellyfin"
+[2025-07-12 13:07:07.426 +02:00] [INF] Web resources path: "/usr/share/jellyfin/web"
+[2025-07-12 13:07:07.426 +02:00] [INF] Application directory: "/usr/lib/jellyfin/bin/"
+[2025-07-12 13:07:07.569 +02:00] [INF] Setting cache path: "/config/cache"
+[2025-07-12 13:07:07.678 +02:00] [INF] Loading assemblies
+[2025-07-12 13:07:07.703 +02:00] [INF] Loaded assembly "Jellyfin.Plugin.OpenSubtitles, Version=20.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Open Subtitles_20.0.0.0/Jellyfin.Plugin.OpenSubtitles.dll"
+[2025-07-12 13:07:07.704 +02:00] [INF] Loaded assembly "Jellyfin.Plugin.SubtitleExtract, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Subtitle Extract_4.0.0.0/Jellyfin.Plugin.SubtitleExtract.dll"
+[2025-07-12 13:07:07.705 +02:00] [INF] Loaded assembly "Jellyfin.Plugin.TMDbBoxSets, Version=11.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/TMDb Box Sets_11.0.0.0/Jellyfin.Plugin.TMDbBoxSets.dll"
+[2025-07-12 13:07:07.771 +02:00] [INF] Defined LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2025-07-12 13:07:07.771 +02:00] [INF] Defined LAN exclusions: []
+[2025-07-12 13:07:07.772 +02:00] [INF] Used LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2025-07-12 13:07:07.773 +02:00] [INF] Filtered interface addresses: ["127.0.0.1", "172.17.0.2"]
+[2025-07-12 13:07:07.774 +02:00] [INF] Bind Addresses ["0.0.0.0"]
+[2025-07-12 13:07:07.774 +02:00] [INF] Remote IP filter is "Allowlist"
+[2025-07-12 13:07:07.774 +02:00] [INF] Filtered subnets: []
+[2025-07-12 13:07:09.484 +02:00] [INF] Loaded plugin: "Open Subtitles" "20.0.0.0"
+[2025-07-12 13:07:09.486 +02:00] [INF] Loaded plugin: "Subtitle Extract" "4.0.0.0"
+[2025-07-12 13:07:09.487 +02:00] [INF] Loaded plugin: "TMDb Box Sets" "11.0.0.0"
+[2025-07-12 13:07:09.488 +02:00] [INF] Loaded plugin: "TMDb" "10.10.7.0"
+[2025-07-12 13:07:09.488 +02:00] [INF] Loaded plugin: "Studio Images" "10.10.7.0"
+[2025-07-12 13:07:09.488 +02:00] [INF] Loaded plugin: "OMDb" "10.10.7.0"
+[2025-07-12 13:07:09.504 +02:00] [INF] Loaded plugin: "MusicBrainz" "10.10.7.0"
+[2025-07-12 13:07:09.505 +02:00] [INF] Loaded plugin: "AudioDB" "10.10.7.0"
+[2025-07-12 13:07:09.588 +02:00] [INF] Kestrel is listening on "0.0.0.0"
+[2025-07-12 13:07:09.633 +02:00] [INF] Resetting user root folder path to "/config/data/root/default"
+[2025-07-12 13:07:10.089 +02:00] [WRN] The WebRootPath was not found: "/run/s6-rc:s6-rc-init:OnmBoG/servicedirs/svc-jellyfin/wwwroot". Static files may be unavailable.
+[2025-07-12 13:07:10.119 +02:00] [INF] Running startup tasks
+[2025-07-12 13:07:10.144 +02:00] [INF] Daily trigger for "Generate Trickplay Images" set to fire at 2025-07-13 03:00:00.000 +02:00, which is 13:52:49.8560016 from now.
+[2025-07-12 13:07:10.146 +02:00] [INF] Daily trigger for "Extract Chapter Images" set to fire at 2025-07-13 02:00:00.000 +02:00, which is 12:52:49.8531779 from now.
+[2025-07-12 13:07:10.211 +02:00] [INF] Found ffmpeg version "7.1.1"
+[2025-07-12 13:07:10.259 +02:00] [INF] Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "ac4", "dca", "flac", "mp3", "truehd"]
+[2025-07-12 13:07:10.274 +02:00] [INF] Available "encoders": ["libsvtav1", "av1_nvenc", "av1_qsv", "av1_amf", "av1_vaapi", "libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mjpeg_qsv", "mjpeg_vaapi", "aac", "libfdk_aac", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[2025-07-12 13:07:10.290 +02:00] [INF] Available filters: ["bwdif_cuda", "deinterlace_qsv", "deinterlace_vaapi", "flip_vulkan", "hwupload_cuda", "hwupload_vaapi", "libplacebo", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_vulkan", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "scale_vulkan", "tonemapx", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "transpose_cuda", "transpose_opencl", "transpose_vaapi", "transpose_vulkan", "vpp_qsv", "yadif_cuda", "zscale", "alphasrc"]
+[2025-07-12 13:07:10.397 +02:00] [INF] Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan"]
+[2025-07-12 13:07:13.106 +02:00] [INF] FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2025-07-12 13:07:13.107 +02:00] [INF] ServerId: "480a3abf02e74632b9fc6140d99736a6"
+[2025-07-12 13:07:13.107 +02:00] [INF] Core startup complete
+[2025-07-12 13:07:13.107 +02:00] [INF] Startup complete 0:00:06.0296671
+[2025-07-12 13:07:13.166 +02:00] [ERR] Error executing Scheduled Task
+System.UnauthorizedAccessException: Access to the path '/var/cache/jellyfin/transcodes' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at MediaBrowser.Common.Configuration.EncodingConfigurationExtensions.GetTranscodePath(IConfigurationManager configurationManager)
+   at Emby.Server.Implementations.ScheduledTasks.Tasks.DeleteTranscodeFileTask.ExecuteAsync(IProgress`1 progress, CancellationToken cancellationToken)
+   at Emby.Server.Implementations.ScheduledTasks.ScheduledTaskWorker.ExecuteInternal(TaskOptions options)
+[2025-07-12 13:07:13.180 +02:00] [INF] "Clean Transcode Directory" Failed after 0 minute(s) and 0 seconds
+[2025-07-12 13:07:13.224 +02:00] [INF] "Clean up collections and playlists" Completed after 0 minute(s) and 0 seconds
+[2025-07-12 13:07:19.202 +02:00] [INF] "Update Plugins" Completed after 0 minute(s) and 6 seconds
