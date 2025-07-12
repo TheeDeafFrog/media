@@ -54,10 +54,12 @@
     variant = "";
   };
 
+  virtualisation.docker.enable = true;
+
   users.users.kevin = {
     isNormalUser = true;
     description = "Kevin";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" ];
   };
 
   home-manager.users.kevin = { pkgs, ...}: {
