@@ -55,6 +55,11 @@
     isNormalUser = true;
     description = "Kevin";
     extraGroups = [ "networkmanager" "wheel" "docker" ];
+    uid = 1000;
+  };
+
+  users.groups.users = {
+    gid = 100;
   };
 
   home-manager.users.kevin = { pkgs, ...}: {
@@ -85,16 +90,13 @@
   ];
 
   fileSystems."/data/media" = {
-    device = "/dev/disk/by-uuid/04a38060-bb43-46c0-ad2f-370aaee8b7e9"; # <-- REPLACE WITH YOUR ACTUAL UUID!
-    fsType = "ext4"; # <-- REPLACE WITH YOUR ACTUAL FILESYSTEM TYPE (e.g., ext4, ntfs, xfs, btrfs)
+    device = "/dev/disk/by-uuid/04a38060-bb43-46c0-ad2f-370aaee8b7e9";
+    fsType = "ext4";
     options = [
       "defaults"
-      "nofail" # Very important! Prevents boot failure if drive isn't connected.
-      "x-systemd.automount" # Optional: Mounts on access, not at boot, can speed up boot if drive is sometimes absent
-      "x-systemd.idle-timeout=600" # Optional: Unmounts after 10 mins of inactivity (if automount used)
-      "uid=1000" # Your kevin user's UID (e.g., from `id kevin`)
-      "gid=100"  # Your kevin user's GID (e.g., from `id kevin`)
-      "umask=0022" # Default permissions: directories 755, files 644
+      "nofail" # Still very important for external drives!
+      # REMOVED: "x-systemd.automount"
+      # REMOVED: "x-systemd.idle-timeout=600"
     ];
   };
 

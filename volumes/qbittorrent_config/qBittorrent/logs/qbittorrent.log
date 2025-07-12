@@ -751,3 +751,32 @@
 (I) 2025-07-12T16:46:41 - Successfully listening on IP. IP: "fe80::f02f:11e0:c921:8573%tun0". Port: "UTP/6881"
 (I) 2025-07-12T16:46:41 - Successfully listening on IP. IP: "10.21.110.177". Port: "TCP/6881"
 (I) 2025-07-12T16:46:41 - Successfully listening on IP. IP: "10.21.110.177". Port: "UTP/6881"
+(N) 2025-07-12T17:08:03 - qBittorrent termination initiated
+(N) 2025-07-12T17:08:03 - Saving resume data completed.
+(N) 2025-07-12T17:08:03 - BitTorrent session successfully finished.
+(N) 2025-07-12T17:08:03 - qBittorrent is now ready to exit
+(N) 2025-07-12T17:09:12 - qBittorrent v5.1.2 started. Process ID: 148
+(N) 2025-07-12T17:09:12 - Using config directory: /config/qBittorrent
+(N) 2025-07-12T17:09:12 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-07-12T17:09:12 - Peer ID: "-qB5120-"
+(I) 2025-07-12T17:09:12 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-07-12T17:09:12 - Distributed Hash Table (DHT) support: ON
+(I) 2025-07-12T17:09:12 - Local Peer Discovery support: ON
+(I) 2025-07-12T17:09:12 - Peer Exchange (PeX) support: ON
+(I) 2025-07-12T17:09:12 - Anonymous mode: OFF
+(I) 2025-07-12T17:09:12 - Encryption support: ON
+(I) 2025-07-12T17:09:12 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-07-12T17:09:12 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-07-12T17:09:12 - Successfully listening on IP. IP: "172.17.0.3". Port: "TCP/6881"
+(I) 2025-07-12T17:09:12 - Successfully listening on IP. IP: "172.17.0.3". Port: "UTP/6881"
+(I) 2025-07-12T17:09:12 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-07-12T17:09:12 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(I) 2025-07-12T17:09:12 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Jul 1 03:31:13 2025.
+(N) 2025-07-12T17:09:12 - Using built-in WebUI.
+(N) 2025-07-12T17:09:12 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-07-12T17:09:12 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-07-12T17:09:13 - Successfully listening on IP. IP: "fe80::b521:2b7:32e2:28de%tun0". Port: "TCP/6881"
+(I) 2025-07-12T17:09:13 - Successfully listening on IP. IP: "fe80::b521:2b7:32e2:28de%tun0". Port: "UTP/6881"
+(I) 2025-07-12T17:09:13 - Successfully listening on IP. IP: "10.2.110.188". Port: "TCP/6881"
+(I) 2025-07-12T17:09:13 - Successfully listening on IP. IP: "10.2.110.188". Port: "UTP/6881"
+(I) 2025-07-12T17:09:17 - Detected external IP. IP: "154.47.30.33"
