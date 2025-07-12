@@ -2,11 +2,7 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ config, pkgs, lib, ... }:
-
-let 
-  home-manager = builtins.fetchTarball https://github.com/nix-community/home-manager/archive/release-25.05.tar.gz;
-in 
+{ config, pkgs, lib, home-manager, ... }:
 
 {
   imports =
@@ -65,6 +61,7 @@ in
   };
 
   home-manager.users.kevin = { pkgs, ...}: {
+    home.homeDirectory = "/home/kevin";
     home.stateVersion = "25.05";
 
     programs.git = {
